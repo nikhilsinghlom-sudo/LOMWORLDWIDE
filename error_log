@@ -1,0 +1,4 @@
+[27-Jan-2025 06:19:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function include_header() in /home/olxhappy/public_html/lomdigital.com/lomdigitalweb/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/olxhappy/public_html/lomdigital.com/lomdigitalweb/index.php on line 2
