@@ -40,6 +40,7 @@
                     <p class="body anima fade in" data-anima-delay="10">We don’t do one-size-fits-all; every service is as unique as your brand, bringing the impact you deserve</p>
                 </div>
             </section>
+            <!-- SERVICES LIST SECTION -->
             <section class="servicesList">
                 <h2 class="subheading anima fade in">Our services</h2>
                 <div class="servicesList__list">
@@ -120,9 +121,8 @@
                     </div>
                 </div>
             </section>
-
+            <!-- CIRCLED IMAGES SECTION -->
             <section class="imageCircle" id="image-circle">
-
                 <div class="imageCircle__trigger anima in" id="trigger"></div>
                 <div class="imageCircle__content" id="content">
                     <h2 class="h0 imageCircle__heading zero u-hideMobile h-anim anima spanned in" data-spanner="w">
@@ -334,12 +334,11 @@
                     </div>
                 </div>
             </section>
-
+            <!-- INFINITY LOGO BANNER SECTION -->
             <section class="logoBanner">
                 <div class="logoBanner__row">
                     <div class="logoBanner__rail" data-looper=".logoBanner" data-looper-speed="-1">
                         <div class="logoBanner__logo" style="transform: translateX(2315.31px);">
-
                             <img src="staging/logo-audi-thumbnail.svg?dm=1728475199" class="media img "
                                 alt="Wendys">
                             <span></span>

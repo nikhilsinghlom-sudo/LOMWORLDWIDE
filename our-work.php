@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOM DIGITAL MARKETING</title>
-
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="css2?family=Archivo:wght@100..900&display=swap" rel="stylesheet">
-
-    <script src="script.js"></script>
-    <script src="scriptlom.js"></script>
-    <link rel="stylesheet" href="style.css">
-
-
-
+<meta charset="UTF-8">
+</head>
+<?php
+include("header.php");
+?>
 </head>
 
 <body cz-shortcut-listen="true">
-
-    <?php
-    include("header.php");
-    ?>
-
     <div id="container">
         <main id="main" class="">
-            <section class="workSlider workSlider--header inside scrolled" id="slider-cards" data-slider-offset="0.19">
+            <div class="workInfo">
+                <!-- <p class="heading text-center">WORK</p> -->
+                <h2 class="h0 subHeading text-center pt-5">Our Work <br> <span class="text-yellow">Speaks</span> for Itself</h2>
+            </div>
+            <div class="workSection">
+                <div class="row">
+                    <div class="col col-lg-4">
+                        <div class="WORKCARD">
+                            <video src="staging/Check out the amazing range (1).mp4"></video>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="WORKCARD"></div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="WORKCARD"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- <section class="workSlider workSlider--header inside scrolled" id="slider-cards" data-slider-offset="0.19">
                 <div class="workSlider__height workSlider__height--7">
                     <div class="workSlider__stick" id="slider-stick">
                         <div class="workSlider__top anima fade in" data-anima-dealy="8">
@@ -152,18 +156,19 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="campaignList">
-                <div class="campaignList__top">
+                <!-- <div class="campaignList__top">
                     <h2 class="h0 campaignList__heading anima h-anim spanned in" data-spanner="w">
                         <p><span class="w" data-i="1">PAST </span></p>
                         <p><span class="w" data-i="2"><i>C</i>OLLABS </span></p>
                     </h2>
 
-                    <!--<span class="campaignList__count anima fade in" data-anima-delay="5">(34)</span>-->
-                </div>
-                <div class="campaignList__table">
+                </div> -->
+
+
+                <!-- <div class="campaignList__table">
                     <div class="campaignList__row anima fade in">
                         <span>Campaign</span>
                         <span>Brand<span>Influencer</span></span>
@@ -269,80 +274,12 @@
                         <span>OLX<span>Brand Film</span></span>
                         <span>Brand Film</span>
                     </div>
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Final Four</span>-->
-                    <!--<span>Capital One<span>Rachel Annamarie Demita</span></span>-->
-                    <!--<span>Rachel Annamarie Demita</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Sunday Morning</span>-->
-                    <!--<span>V8<span>David Quarles IV</span></span>-->
-                    <!--<span>David Quarles IV</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>BBQ Shrimp</span>-->
-                    <!--<span>Campbell's<span>Richard Blais</span></span>-->
-                    <!--<span>Richard Blais</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>San Fran Top 3</span>-->
-                    <!--<span>Toyota<span>Cynthia Linh</span></span>-->
-                    <!--<span>Cynthia Linh</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Latino Origins in Miami </span>-->
-                    <!--<span>Lincoln<span>Tony Hernandez</span></span>-->
-                    <!--<span>Tony Hernandez</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Native Meadow </span>-->
-                    <!--<span>Pennington<span>Renovation Husbands</span></span>-->
-                    <!--<span>Renovation Husbands</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>First Laps of the Season</span>-->
-                    <!--<span>Mountain Creek &amp; Michelob Ultra<span>gimbalgod</span></span>-->
-                    <!--<span>gimbalgod</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Welcome to Big Bend</span>-->
-                    <!--<span>Travel Texas<span>Kevinessa</span></span>-->
-                    <!--<span>Kevinessa</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Monahans Sandhills State Park</span>-->
-                    <!--<span>Travel Texas<span>The Traveling Child</span></span>-->
-                    <!--<span>The Traveling Child</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>KFC Nuggets</span>-->
-                    <!--<span>KFC<span>Coach Clay Tv</span></span>-->
-                    <!--<span>Coach Clay Tv</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Yoga Life</span>-->
-                    <!--<span>Calia Fitness<span>Caila Quinn Burrello</span></span>-->
-                    <!--<span>Caila Quinn Burrello</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Goldfish Smiles</span>-->
-                    <!--<span>Goldfish<span>Mallory On The Moon</span></span>-->
-                    <!--<span>Mallory On The Moon</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Ford Maverick</span>-->
-                    <!--<span>Ford<span>Sebastian Gomez</span></span>-->
-                    <!--<span>Sebastian Gomez</span>-->
-                    <!--            </div>-->
-                    <!--    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">-->
-                    <!--<span>Sharing A Meal</span>-->
-                    <!--<span>Legent Bourboun<span>cheftregaye</span></span>-->
-                    <!--<span>cheftregaye</span>-->
-                    <!--            </div>-->
-                    <div>
-                    </div>
-                </div>
+                </div> -->
+
+
             </section>
+
+
             <section class="callToAction">
 
                 <div class="callToAction__inner buttonHover">

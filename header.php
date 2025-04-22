@@ -18,9 +18,20 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="css2?family=Archivo:wght@100..900&display=swap" rel="stylesheet">
+<link href="css2?family=Archivo:wght@100..900&display=swap" rel="stylesheet"> -->
+
+<!-- poppins fonts -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 
 <script src="script.js"></script>
 <script src="scriptlom.js"></script>
@@ -29,31 +40,34 @@
 <nav class="nav" id="nav">
 
     <div class="nav__bar">
-        <a href="https://www.lomdigital.com/lomdigitalweb/" class="nav__logo">
-            <img src="staging/LOM Logo Final-01 dig.webp" class="media img " alt="Nav logo">
+        <a href="index.php" class="nav__logo">
+            <img src="staging/LOM Logo Final-01 dig.webp" class="media img" alt="LOM logo">
         </a>
         <div class="nav__links">
-            <a href="https://www.lomdigital.com/lomdigitalweb/our-work.php" class="link nav__linkz flipLink" data-content="Our Work">
+            <a href="our-work.php" class="link nav__linkz flipLink ps-3" data-content="Our Work">
                 <span>Our Work</span>
             </a>
-            <a href="https://www.lomdigital.com/lomdigitalweb/company.php" class="link nav__linkz flipLink" data-content="Company">
+            <a href="company.php" class="link nav__linkz flipLink ps-3" data-content="Company">
                 <span>Company</span>
             </a>
-            <a href="https://www.lomdigital.com/lomdigitalweb/services.php" class="link nav__linkz flipLink" data-content="Services">
+            <a href="services.php" class="link nav__linkz flipLink ps-3" data-content="Services">
                 <span>Services</span>
             </a>
+            <a href="contact.php" class="link nav__linkz flipLink ps-3" data-content="Contact">
+                <span>Contact</span>
+            </a>
         </div>
-
+        <!-- 
         <div class="nav__cta">
             <a href="https://www.lomdigital.com/lomdigitalweb/contact.php" class="arrowButton ">
                 <span class="arrowButton__arrow"><img src="https://lomdigital.com/lomdigitalweb/ui/button_arrow.svg"><img src="https://lomdigital.com/lomdigitalweb/ui/button_arrow.svg"></span><span class="arrowButton__label" data-content="Get in Touch"><span>Get in Touch</span></span>
             </a>
-        </div>
-        <div class="nav__toggle" id="nav-toggle">
+        </div> -->
+        <!-- <div class="nav__toggle" id="nav-toggle">
             <span><span>Menu</span></span>
-        </div>
+        </div> -->
     </div>
-    <div class="nav__menu">
+    <!-- <div class="nav__menu">
         <div class="nav__menuBg"></div>
         <div class="nav__menuInner">
             <div class="nav__menuLinks">
@@ -80,6 +94,6 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
 </nav>
