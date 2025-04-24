@@ -37,19 +37,17 @@
                             <span class="w" data-i="1">With </span>
                         </p>
                         <p>
-                            <span class="w" data-i="2"><i>V</i>ision</span>
+                            <span class="w" data-i="2">Vision</span>
                         </p>
                         <p>
-                            <span class="w" data-i="3"><strong>That</strong> </span>
+                            <span class="w text-yellow" data-i="3">That </span>
                         </p>
                         <p>
-                            <span class="w" data-i="4"><i><strong class="isift" style="position: relative;left:44px;">C</strong></i>
-                                <strong>reates</strong>
-                            </span>
+                            <span class="w text-yellow" data-i="4">Creates</span>
                         </p>
                         <p>
-                            <span class="w pos-imp" data-i="5">
-                                <strong>impact</strong>
+                            <span class="w pos-imp text-yellow" data-i="5">
+                                impact
                             </span>
                         </p>
                     </h2>
@@ -85,8 +83,7 @@
                             <span class="">and craft </span>
                         </p>
                         <p>
-                            <span class="">
-                                <i>M</i>arketing </span>
+                            <span class="">Marketing </span>
                         </p>
                         <p>
                             <span class="">
@@ -180,41 +177,27 @@
                     </div>
                 </div>
             </section>
-            <!--<section>-->
-            <!--    <div class="container">-->
-            <!--    <div class="row">-->
-            <!--        <div class="col-md-6">-->
-            <!--            <img src="staging/krittika.webp" alt="" width="100%" style="border-radius: 10px;">-->
-            <!--        </div>-->
-            <!--         <div class="col-md-6"><p style="font-size: 24px;font-weight: 500;line-height: 27px;text-align: justify;">Krittika tosses up a Filipino Spaghetti as easily as conjuring up a Digital Communication Strategy. A Management postgraduate from Chandigarh University and thereafter intense and immersive stints at the top rung of Advertising with the big boys like Ogilvy & Mather and J Walter Thompson prepared her to take on the world of marketing communication. But getting lost in a big pond was not her idea of a future. She decided to start on her own when she realized that she wanted to achieve much bigger things with her cache of rich experience. And in the process, drastically change the way the industry viewed the client-agency relationship. A big objective in professional life for one so young.</p></div>-->
-            <!--    </div>-->
-            <!--    </div>-->
-            <!--</section>-->
-
 
             <section class="ourTeam">
-                <h2 class="h0 ourTeam__heading scroll zero smd h-anim anima spanned" data-spanner="w" data-anima-delay="10">
+                <h2 class="h0 ourTeam__heading scroll zero smd h-anim anima spanned text-center" data-spanner="w" data-anima-delay="10">
                     <p>
                         <span class="w" data-i="1">Our </span>
-                        <span class="w" data-i="2">
-                            <strong>Leadership</strong>
-                        </span>
+                        <span class="w text-yellow" data-i="2">Leadership</span>
                     </p>
                     <p>
                         <span class="w" data-i="3">Team </span>
-                        <!--                     <span class="ourTeam__count anima fade smd" data-anima-delay="25">(10)-->
-                        <!--</span> -->
                     </p>
                 </h2>
-                <div class="row" style="margin-bottom:40px;">
-                    <div class="col-md-6">
-                        <img src="staging/krittika.webp" alt="" width="100%" style="border-radius: 10px;">
+                <div class="row align-items-center">
+                    <div class=" col-md-6">
+                        <img src="staging/krittika.webp" alt="" width="90%" style="border-radius: 10px;">
                     </div>
                     <div class="col-md-6">
-                        <p style="font-size: 24px;font-weight: 500;line-height: 36px;text-align: justify;">Krittika tosses up a Filipino Spaghetti as easily as conjuring up a Digital Communication Strategy. A Management postgraduate from Chandigarh University and thereafter intense and immersive stints at the top rung of Advertising with the big boys like Ogilvy & Mather and J Walter Thompson prepared her to take on the world of marketing communication. But getting lost in a big pond was not her idea of a future. She decided to start on her own when she realized that she wanted to achieve much bigger things with her cache of rich experience. And in the process, drastically change the way the industry viewed the client-agency relationship. A big objective in professional life for one so young.</p>
+                        <p style="font-size: 20px;font-weight: 500;line-height: 30px;">Krittika tosses up a Filipino Spaghetti as easily as conjuring up a Digital Communication Strategy. A Management postgraduate from Chandigarh University and thereafter intense and immersive stints at the top rung of Advertising with the big boys like Ogilvy & Mather and J Walter Thompson prepared her to take on the world of marketing communication. But getting lost in a big pond was not her idea of a future. She decided to start on her own when she realized that she wanted to achieve much bigger things with her cache of rich experience. And in the process, drastically change the way the industry viewed the client-agency relationship. A big objective in professional life for one so young.</p>
                     </div>
                 </div>
 
+                <p class="teamHeading text-center">OUR<span class="text-yellow"> TEAM</span></p>
                 <div class="ourTeam__team">
                     <div class="ourTeam__member scroll anima smd " data-anima-delay="2">
                         <picture>
@@ -222,7 +205,7 @@
                             <source srcset="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb 1x, staging/Abhimanyu_Singh.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=ad0148d3fd166debccec9a6bf3925d94 2x" media="(min-width: 800px)">
                             <img src="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb" class="media img ourTeam__photo" alt="JB">
                         </picture>
-                        <p class="ourTeam__name">Abhimanyu <i>S</i>ingh</p>
+                        <p class="ourTeam__name"><span class="text-yellow">Abhimanyu</span> Singh</p>
                         <span class="ourTeam__position">Social Media Manager</span>
                     </div>
 
@@ -233,7 +216,7 @@
                             <img src="staging/Shweta_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099" class="media img ourTeam__photo" alt="Katie">
                         </picture>
 
-                        <p class="ourTeam__name">Shweta <i>S</i>harma</p>
+                        <p class="ourTeam__name"><span class="text-yellow">Shweta</span> Sharma</p>
                         <span class="ourTeam__position">HR Manager </span>
                     </div>
 
@@ -244,7 +227,7 @@
                             <img src="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433" class="media img ourTeam__photo" alt="Julie">
                         </picture>
 
-                        <p class="ourTeam__name"> Deepti <i>D</i>uggal</p>
+                        <p class="ourTeam__name"><span class="text-yellow">Deepti</span> Duggal</p>
                         <span class="ourTeam__position">Creative Head</span>
                     </div>
 
@@ -255,7 +238,7 @@
                             <img src="staging/Deep_Gandhi.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=f8738833ce9969bf47fee664c4a384ae" class="media img ourTeam__photo" alt="Deanna">
                         </picture>
 
-                        <p class="ourTeam__name"> Deep <i>G</i>andhi</p>
+                        <p class="ourTeam__name"><span class="text-yellow">Deep</span> Gandhi</p>
                         <span class="ourTeam__position">Client Servicing Manager </span>
                     </div>
 
@@ -267,8 +250,8 @@
                                 <img src="staging/Rainy_Vermal.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57" class="media img ourTeam__photo" alt="David">
                             </picture>
 
-                            <p class="ourTeam__name">Rainy<i>V</i>erma</p>
-                            <span class="ourTeam__position"> Social Media Manager</span>
+                            <p class="ourTeam__name"><span class="text-yellow">Rainy</span> Verma</p>
+                            <span class="ourTeam__position">Social Media Manager</span>
                     </div>
 
                     <div class="ourTeam__member scroll anima smd  fade " data-anima-delay="5">
@@ -277,7 +260,7 @@
                             <source srcset="staging/Jatin.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57 1x, staging/Jatin.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=6f9907ccade954b01c40bd5f9cc86927 2x" media="(min-width: 800px)">
                             <img src="staging/Jatin.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57" class="media img ourTeam__photo" alt="David">
                         </picture>
-                        <p class="ourTeam__name">Jatin <i>B</i>hatia</p>
+                        <p class="ourTeam__name"><span class="text-yellow">Jatin</span> Bhatia</p>
                         <span class="ourTeam__position">Sr. Motion Graphic Designer </span>
                     </div>
 
@@ -287,7 +270,7 @@
                             <source srcset="staging/Sneha_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a 1x, staging/Sneha_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=68105c3f9403d2a649a80941f07b16e0 2x" media="(min-width: 800px)">
                             <img src="staging/Sneha_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a" class="media img ourTeam__photo" alt="Melody">
                         </picture>
-                        <p class="ourTeam__name">Sneha <i>S</i>harma</p>
+                        <p class="ourTeam__name"><span class="text-yellow">Sneha</span> Sharma</p>
                         <span class="ourTeam__position">Graphics & UI/UX Designer</span>
                     </div>
 
@@ -297,7 +280,7 @@
                             <source srcset="staging/Mridul_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919785&amp;s=bcb1e75e99ea1cff84eff7541298e344 1x, staging/Mridul_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919785&amp;s=e834d17a23b9d08778dbe8c1336710fe 2x" media="(min-width: 800px)">
                             <img src="staging/Mridul_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919785&amp;s=bcb1e75e99ea1cff84eff7541298e344" class="media img ourTeam__photo" alt="Erin">
                         </picture>
-                        <p class="ourTeam__name"> Mridul <i>S</i>harma</p>
+                        <p class="ourTeam__name"><span class="text-yellow">Mridul</span> Sharma</p>
                         <span class="ourTeam__position">3D & CGI Artist</span>
                     </div>
 
@@ -307,7 +290,7 @@
                             <source srcset="staging/Ovesh_Ahamad.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=3bfbd840a607c6466e831fbc47bd36f0 1x, staging/Ovesh_Ahamad.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=4ba4a39d29f7355b0091120f0feb3db1 2x" media="(min-width: 800px)">
                             <img src="staging/Ovesh_Ahamad.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=3bfbd840a607c6466e831fbc47bd36f0" class="media img ourTeam__photo" alt="Christa">
                         </picture>
-                        <p class="ourTeam__name"> Ovesh <i>A</i>hamad</p>
+                        <p class="ourTeam__name"><span class="text-yellow">Ovesh</span> Ahamad</p>
                         <span class="ourTeam__position">Jr. Motion Designer</span>
                     </div>
 
@@ -317,8 +300,8 @@
                             <source srcset="staging/Vishank_Chaudhary.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2 1x, staging/Vishank_Chaudhary?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=405e996490ad6308ee568f427af70e96 2x" media="(min-width: 800px)">
                             <img src="staging/Vishank_Chaudhary.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2" class="media img ourTeam__photo" alt="Dana">
                         </picture>
-                        <p class="ourTeam__name"> Vishank <i>C</i>haudhary</p>
-                        <span class="ourTeam__position"> Sr. Motion Graphic Designer</span>
+                        <p class="ourTeam__name"><span class="text-yellow">Vishank</span> Chaudhary</p>
+                        <span class="ourTeam__position">Sr. Motion Graphic Designer</span>
                     </div>
                 </div>
             </section>
@@ -350,12 +333,12 @@
                                     <img src="staging/young-man-enjoying-with-his-new-jacket.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272498&amp;s=b255df8b416d337da3fa6290ca75ce9e" class="media img " alt="Marcus Edit">
                                 </picture>
                             </span>
-                            <span class="w" data-i="2"><i>T</i>alk </span>
+                            <span class="w" data-i="2">Talk </span>
                         </p>
                     </h2>
                     <div class="callToAction__buttonWrap">
                         <div data-follow=".callToAction__inner" style="transform: translate3d(0px, 0px, 0px) rotate(0deg);">
-                            <a href="https://www.rhythminfluence.com/contact" class="button anima" data-anima-delay="30">
+                            <a href="https://lomdigital.com/lomdigitalweb/contact" class="button anima" data-anima-delay="30">
                                 <span class="button__inner">get started</span>
                             </a>
                         </div>

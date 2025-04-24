@@ -359,7 +359,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 
 .h0 {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .h0 strong {
@@ -1767,16 +1767,17 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 @media screen and (orientation: portrait) and (max-width: 800px),
 screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600px) {
   .nav__bar {
-    height: 7.5rem;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    padding: 0 1.6rem;
+    height: 5rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 4rem 1rem;
     z-index: 1;
+    background-color: #000;
   }
 
   .nav__logo {
-    height: 2.9rem;
+    height: 5rem;
     -webkit-transition: -webkit-filter 50ms 225ms;
     transition: -webkit-filter 50ms 225ms;
     -o-transition: filter 50ms 225ms;
@@ -1793,9 +1794,9 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   }
 
   .nav__toggle {
-    font-size: 1.4rem;
-    padding: 2rem;
-    margin: 0 -2rem -2rem 0;
+    font-size: 1.8rem;
+    padding: 1rem;
+    /* margin: 0 -2rem -2rem 0; */
     -webkit-transition: color 100ms 300ms ease-in-out;
     -o-transition: color 100ms 300ms ease-in-out;
     transition: color 100ms 300ms ease-in-out;
@@ -1809,8 +1810,10 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   }
 
   .nav__toggle>span::after {
-    content: "Close";
+    content: "x";
     position: absolute;
+    color: #fff;
+    font-size: 20px;
     top: 0;
     right: 0;
     -webkit-transform: translateY(1.1em);
@@ -1848,7 +1851,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #D6D6D6;
+    background-color: #000;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -1868,7 +1871,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
     left: 0;
     width: 100%;
     height: 100%;
-    color: black;
+    color: #fff;
     padding: 0 1.6rem 2.3rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1892,6 +1895,10 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   }
 
   .nav__menuLink.active {
+    color: #FFD600;
+  }
+
+  .nav__menuLink:hover {
     color: #FFD600;
   }
 
@@ -1920,8 +1927,8 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   }
 
   .menu-open .nav__logo {
-    -webkit-filter: invert(1);
-    filter: invert(1);
+    /* -webkit-filter: invert(1); */
+    /* filter: invert(1); */
     -webkit-transition: -webkit-filter 50ms 275ms;
     transition: -webkit-filter 50ms 275ms;
     -o-transition: filter 50ms 275ms;
@@ -2036,7 +2043,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 .footer {
   position: relative;
   margin-top: 20rem;
-  padding: 6rem 5rem 17rem 5rem;
+  padding: 0rem 5rem 15rem 5rem;
   min-height: 39rem;
 }
 
@@ -2058,8 +2065,8 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   text-transform: uppercase;
   float: left;
   clear: left;
-  font-weight: 700;
-  color: #999999;
+  font-weight: 600;
+  color: #fff;
 }
 
 .footer__mainLink.active {
@@ -2112,11 +2119,11 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   transition: mask-position 1000ms 500ms ease-in-out, color 200ms linear, -webkit-mask-position 1000ms 500ms ease-in-out;
 }
 
-.footer__socialLinks {
+/* .footer__socialLinks {
   position: absolute;
   top: 6rem;
   right: 5rem;
-}
+} */
 
 .footer__socialLinks .subheading {
   font-weight: 700;
@@ -2170,7 +2177,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   bottom: 0;
   left: 5rem;
   right: 5rem;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2178,7 +2185,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 1.2;
   padding: 2rem 0;
   letter-spacing: 0.1em;
@@ -2211,10 +2218,10 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
     float: none;
   }
 
-  .footer__socialLinks {
+  /* .footer__socialLinks {
     position: static;
     margin-top: 6rem;
-  }
+  } */
 
   .footer__socialLink {
     display: block;
@@ -2238,9 +2245,9 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
     margin-top: 0.25rem;
   }
 
-  .footer__bottom>*:first-child {
+  /* .footer__bottom>*:first-child {
     display: none;
-  }
+  } */
 }
 
 @-webkit-keyframes drop {
@@ -2897,8 +2904,9 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .aboutHeader__heading {
-  font-size: 14rem;
+  font-size: 12rem;
   line-height: 1;
+  font-weight: 600;
 }
 
 .aboutHeader__heading p {
@@ -2963,9 +2971,9 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .aboutHeader__heading.in p:nth-child(3) {
-  -webkit-transform: translateX(40rem);
-  -ms-transform: translateX(40rem);
-  transform: translateX(40rem);
+  -webkit-transform: translateX(39rem);
+  -ms-transform: translateX(39rem);
+  transform: translateX(39rem);
   -webkit-transition: -webkit-transform 1225ms 925ms cubic-bezier(0.6, 0, 0.2, 1);
   transition: -webkit-transform 1225ms 925ms cubic-bezier(0.6, 0, 0.2, 1);
   -o-transition: transform 1225ms 925ms cubic-bezier(0.6, 0, 0.2, 1);
@@ -2991,7 +2999,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 .aboutHeader__card {
   position: absolute;
   top: -7rem;
-  left: 70rem;
+  left: 66rem;
   width: 30rem;
   height: 45rem;
   -webkit-transform: rotate(-8deg);
@@ -3158,11 +3166,12 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .mediaSentence__main .subheading {
+  font-size: 28px;
   margin-bottom: 5.6rem;
 }
 
 .mediaSentence__sentence {
-  font-size: 9.8rem;
+  font-size: 8rem;
   line-height: 1.04;
   position: relative;
   z-index: 1;
@@ -3915,9 +3924,9 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   margin-top: -8rem;
 }
 
-.workSlider+.campaignList {
+/* .workSlider+.campaignList {
   margin-top: -45rem;
-}
+} */
 
 @media screen and (orientation: portrait) and (max-width: 800px),
 screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600px) {
@@ -4491,7 +4500,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .campaignList {
-  padding: 12rem 0;
+  padding-top: 20rem;
   position: relative;
 }
 
@@ -4513,7 +4522,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .campaignList__row {
-  padding: 1rem 5rem;
+  padding: 1rem 0rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4537,7 +4546,6 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   -ms-flex: 12;
   flex: 12;
   font-size: 2rem;
-  font-weight: 700;
 }
 
 .campaignList__row>span:nth-child(2) {
@@ -4572,7 +4580,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 
 .campaignList__row:first-child {
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   border-bottom: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -4706,7 +4714,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .officeList {
-  padding: 12rem 5rem;
+  padding: 5rem;
 }
 
 .officeList__list {
@@ -4956,7 +4964,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .statsSection {
-  padding: 5rem 5rem 5rem;
+  padding: 5rem 5rem 5rem 16rem;
 }
 
 .statsSection .subheading {
@@ -4977,7 +4985,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .statsSection__stat {
-  width: 67rem;
+  width: 55rem;
   padding: 2rem 0 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5013,15 +5021,15 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .statsSection__stat:nth-child(2) {
-  margin-left: 33.5rem;
+  margin-left: 28.5rem;
 }
 
 .statsSection__stat:nth-child(3) {
-  margin-left: 67rem;
+  margin-left: 53rem;
 }
 
 .statsSection__number {
-  font-size: 20rem;
+  font-size: 11rem;
   letter-spacing: -0.02em;
   line-height: 0.8;
   margin-top: -2rem;
@@ -5042,7 +5050,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .statsSection__label {
-  width: 15rem;
+  width: 19rem;
   font-size: 3rem;
   position: absolute;
   right: 0;
@@ -5133,11 +5141,11 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .ourTeam {
-  padding: 10rem 11rem 5rem;
+  padding: 10rem 23rem 5rem;
 }
 
 .ourTeam__heading {
-  font-size: 8rem;
+  font-size: 7rem;
   line-height: 0.9;
   position: relative;
   margin-bottom: 8rem;
@@ -5167,10 +5175,11 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  align-items: center;
 }
 
 .ourTeam__member {
-  width: 38.3rem;
+  width: 31rem;
   margin-bottom: 7.5rem;
 }
 
@@ -5666,8 +5675,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .callToAction {
-  padding: 8rem 0 10rem;
-  /* Originally it was 16 rem 0 20rem*/
+  padding: 16rem 0 3rem 0;
   text-align: center;
 }
 
@@ -5786,7 +5794,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 /* NEW CLASSES */
 .LomLogo {
   position: relative;
-  padding-top: 50px;
+  padding-top: 80px;
   display: flex;
   justify-content: center;
 }
@@ -5802,6 +5810,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   max-width: 910px;
   width: 100%;
   margin: auto;
+  padding: 0 1.6rem;
 }
 
 .storyText {
@@ -5820,10 +5829,8 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 .icons {
-  position: absolute;
-  /* top: 50%;
-  transform: translateY(-50%); */
-  right: 40px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .icons a {
@@ -5846,11 +5853,6 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   color: #fff;
   transition: 200ms ease-out;
 }
-
-/* .icons a:hover {
-  background-color: #FFD600;
-  transition: 200ms ease-out;
-} */
 
 .icons a:hover i {
   color: #FFD600;
@@ -5882,6 +5884,7 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
   max-width: 1320px;
   margin: auto;
   top: 200px;
+  padding: 0 1.6rem;
 }
 
 .WORKCARD {
@@ -5892,8 +5895,214 @@ screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600
 }
 
 
+/* WORK CARD STYLES */
+.workCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
+.workcard {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  flex: 1 1 calc(50% - 10px);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s ease-in-out;
+  max-width: calc(50% - 10px);
+  height: 400px;
+}
 
+.workcard video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+}
+
+.workcard .workCardText {
+  display: none;
+  padding: 20px;
+  font-size: 1rem;
+  color: #202020;
+}
+
+.workCardText h3 {
+  font-size: 24px;
+}
+
+.workCardText p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.workcard.active {
+  flex-direction: row;
+  height: 400px;
+  width: 100%;
+  max-width: 100%;
+  flex: 1 1 100%;
+}
+
+.workcard.active video {
+  width: 50%;
+  height: 100%;
+}
+
+.workcard.active .workCardText {
+  display: block;
+  width: 50%;
+}
+
+.workCards:has(.active) .workcard:not(.active) {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+@media (max-width: 768px) {
+
+  .workCards {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .workcard {
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .workcard,
+  .workcard.active {
+    flex: 1 1 100%;
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .workcard video,
+  .workcard.active video {
+    width: 100%;
+    height: auto;
+  }
+
+  .workcard .workCardText {
+    display: none;
+    /* Keep text hidden by default */
+    padding: 15px;
+    width: 100%;
+  }
+
+  .workcard.active .workCardText {
+    display: block;
+    width: 100%;
+  }
+
+  .footerContent {
+    flex-direction: column;
+  }
+
+  .icons {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .icons a {
+    display: inline;
+  }
+}
+
+.campaignList {
+  max-width: 1320px;
+  width: 100%;
+  margin: auto;
+}
+
+.campaignHeading {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.campaignList .subHeading {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.campaignList__table {
+  padding: 3rem 0;
+}
+
+.footerText {
+  font-size: 28px;
+  font-size: 700;
+  color: #fff;
+  padding: 25px 0 10px 0;
+}
+
+.workGallery {
+  padding-top: 20rem;
+}
+
+.galleryHeading {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.slider {
+  height: 300px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(400px *18);
+  animation: scroll 30s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.slide img {
+  width: 100%;
+  transition: transform 1s;
+}
+
+.slide:hover img {
+  transform: translateZ(10px);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-400px * 9));
+  }
+}
+
+.teamHeading {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 6rem 0;
+}
 
 
 /* images starting links */

@@ -41,7 +41,7 @@
 
     <div class="nav__bar">
         <a href="index.php" class="nav__logo">
-            <img src="staging/LOM Logo Final-01 dig.webp" class="media img" alt="LOM logo">
+            <img src="staging/lomLogo.png" class="media img" alt="LOM logo">
         </a>
         <div class="nav__links">
             <a href="our-work.php" class="link nav__linkz flipLink ps-3" data-content="Our Work">
@@ -57,17 +57,17 @@
                 <span>Contact</span>
             </a>
         </div>
-        <!-- 
-        <div class="nav__cta">
+
+        <!-- <div class="nav__cta">
             <a href="https://www.lomdigital.com/lomdigitalweb/contact.php" class="arrowButton ">
                 <span class="arrowButton__arrow"><img src="https://lomdigital.com/lomdigitalweb/ui/button_arrow.svg"><img src="https://lomdigital.com/lomdigitalweb/ui/button_arrow.svg"></span><span class="arrowButton__label" data-content="Get in Touch"><span>Get in Touch</span></span>
             </a>
         </div> -->
-        <!-- <div class="nav__toggle" id="nav-toggle">
-            <span><span>Menu</span></span>
-        </div> -->
+        <div class="nav__toggle" id="nav-toggle">
+            <span><span><i class="fa-solid fa-bars"></i></span></span>
+        </div>
     </div>
-    <!-- <div class="nav__menu">
+    <div class="nav__menu">
         <div class="nav__menuBg"></div>
         <div class="nav__menuInner">
             <div class="nav__menuLinks">
@@ -85,15 +85,7 @@
                     <span>Get In Touch</span>
                 </a>
             </div>
-            <div class="nav__menuSocial">
-                <a href="https://www.instagram.com/rhythminfluence/" class="link nav__socialLink" target="_blank" data-content="Instagram">
-                    <span>Instagram</span>
-                </a>
-                <a href="https://www.linkedin.com/company/rhythminfluence/posts/?feedView=all" class="link nav__socialLink" target="_blank" data-content="LinkedIn">
-                    <span>LinkedIn</span>
-                </a>
-            </div>
         </div>
-    </div> -->
+    </div>
 
 </nav>

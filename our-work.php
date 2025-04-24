@@ -10,278 +10,124 @@ include("header.php");
 <body cz-shortcut-listen="true">
     <div id="container">
         <main id="main" class="">
-            <div class="workInfo">
+            <div class="workInfo text-center">
                 <!-- <p class="heading text-center">WORK</p> -->
                 <h2 class="h0 subHeading text-center pt-5">Our Work <br> <span class="text-yellow">Speaks</span> for Itself</h2>
             </div>
             <div class="workSection">
-                <div class="row">
-                    <div class="col col-lg-4">
-                        <div class="WORKCARD">
-                            <video src="staging/Check out the amazing range (1).mp4"></video>
+                <div class="workCards" id="cardContainer">
+                    <div class="workcard">
+                        <video src="https://cdn.pixabay.com/video/2017/09/18/12060-234530446_large.mp4" autoplay muted loop></video>
+                        <div class="workCardText">
+                            <h3>Nature Project</h3>
+                            <p>Peaceful scenes of nature. Relax and enjoy the greenery and calmness. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ut expedita nesciunt laborum eligendi voluptatem fuga pariatur nisi vero quos, aut a, omnis iure repellat quia suscipit dolorem quam voluptatibus autem modi quae! Voluptatem iure ipsam debitis voluptatum error fuga voluptates a quidem, molestias deserunt exercitationem pariatur nobis cumque atque, ipsum perspiciatis! Recusandae voluptates impedit consequatur officia qui laboriosam voluptas.</p>
                         </div>
                     </div>
-                    <div class="col col-lg-4">
-                        <div class="WORKCARD"></div>
+                    <div class="workcard">
+                        <video src="https://cdn.pixabay.com/video/2024/03/18/204565-924698132_large.mp4" autoplay muted
+                            loop></video>
+                        <div class="workCardText">
+                            <h3>Urban Vibes</h3>
+                            <p>Fast-paced shots of the city and urban energy at its peak. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ut expedita nesciunt laborum eligendi voluptatem fuga pariatur nisi vero quos, aut a, omnis iure repellat quia suscipit dolorem quam voluptatibus autem modi quae! Voluptatem iure ipsam debitis voluptatum error fuga voluptates a quidem, molestias deserunt exercitationem pariatur nobis cumque atque, ipsum perspiciatis! Recusandae voluptates impedit consequatur officia qui laboriosam voluptas.</p>
+                        </div>
                     </div>
-                    <div class="col col-lg-4">
-                        <div class="WORKCARD"></div>
+                    <div class="workcard">
+                        <video src="https://cdn.pixabay.com/video/2023/04/10/158229-816359520_large.mp4" autoplay muted
+                            loop></video>
+                        <div class="workCardText">
+                            <h3>Adventure</h3>
+                            <p>Moments from hikes, trails, and spontaneous adventures. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ut expedita nesciunt laborum eligendi voluptatem fuga pariatur nisi vero quos, aut a, omnis iure repellat quia suscipit dolorem quam voluptatibus autem modi quae! Voluptatem iure ipsam debitis voluptatum error fuga voluptates a quidem, molestias deserunt exercitationem pariatur nobis cumque atque, ipsum perspiciatis! Recusandae voluptates impedit consequatur officia qui laboriosam voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="workcard">
+                        <video src="https://cdn.pixabay.com/video/2024/02/13/200427-912684284_large.mp4" autoplay muted
+                            loop></video>
+                        <div class="workCardText">
+                            <h3>Wildlife</h3>
+                            <p>Explore the wilderness and discover amazing creatures. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ut expedita nesciunt laborum eligendi voluptatem fuga pariatur nisi vero quos, aut a, omnis iure repellat quia suscipit dolorem quam voluptatibus autem modi quae! Voluptatem iure ipsam debitis voluptatum error fuga voluptates a quidem, molestias deserunt exercitationem pariatur nobis cumque atque, ipsum perspiciatis! Recusandae voluptates impedit consequatur officia qui laboriosam voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="workcard">
+                        <video src="https://cdn.pixabay.com/video/2021/10/05/90877-629483574_large.mp4" autoplay muted loop></video>
+                        <div class="workCardText">
+                            <h3>Mountains</h3>
+                            <p>Soaring peaks and snowy slopes from around the world. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ut expedita nesciunt laborum eligendi voluptatem fuga pariatur nisi vero quos, aut a, omnis iure repellat quia suscipit dolorem quam voluptatibus autem modi quae! Voluptatem iure ipsam debitis voluptatum error fuga voluptates a quidem, molestias deserunt exercitationem pariatur nobis cumque atque, ipsum perspiciatis! Recusandae voluptates impedit consequatur officia qui laboriosam voluptas.</p>
+                        </div>
+                    </div>
+                    <div class="workcard">
+                        <video src="https://cdn.pixabay.com/video/2023/05/24/164360-830461265_large.mp4" autoplay muted loop></video>
+                        <div class="workCardText">
+                            <h3>Mountains</h3>
+                            <p>Soaring peaks and snowy slopes from around the world. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ut expedita nesciunt laborum eligendi voluptatem fuga pariatur nisi vero quos, aut a, omnis iure repellat quia suscipit dolorem quam voluptatibus autem modi quae! Voluptatem iure ipsam debitis voluptatum error fuga voluptates a quidem, molestias deserunt exercitationem pariatur nobis cumque atque, ipsum perspiciatis! Recusandae voluptates impedit consequatur officia qui laboriosam voluptas.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-
-            <!-- <section class="workSlider workSlider--header inside scrolled" id="slider-cards" data-slider-offset="0.19">
-                <div class="workSlider__height workSlider__height--7">
-                    <div class="workSlider__stick" id="slider-stick">
-                        <div class="workSlider__top anima fade in" data-anima-dealy="8">
-                            <span class="subheading">Previous Work</span>
-                            <p class="body body--small"></p>
-                        </div>
-                        <div class="workSlider__slider">
-                            <div class="workSlider__rail anima fade in" id="slider-rail" style="transform: translate3d(-774.208px, 0px, 0px);">
-                                <div class="sliderCard workSlider__headingSlide anima in">
-                                    <h1 class="h0 workSlider__heading zero h-anim anima spanned in" data-spanner="w" data-anima-delay="3">
-                                        <p><span class="w" data-i="1"><i>C</i>ontent </span></p>
-                                        <p><span class="w" data-i="2">That </span></p>
-                                        <p><span class="w" data-i="3"><i>D</i>rive </span></p>
-                                        <p><span class="w" data-i="4"><strong>Leads </strong> </span></p>
-                                    </h1>
-                                </div>
-                                <div class="workCard sliderCard">
-                                    <div class="workCard__media">
-                                        <video muted="" loop="" playsinline="" class="media vid " poster="staging/mcvities.webp?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156415&amp;s=d2a0bf388444e9e1d7f6dc7d78ec352e">
-                                            <source src="staging/staging/Do you guys know what is this Hobnobs If you do then do help me with the quirkiest, funniest and most interesting answers to this question and stand a chance to go on a London trip and win cool gadget (1).mp4">
-                                        </video>
-                                    </div>
-                                    <div class="workCard__content">
-                                        <p class="subheading">We partnered with</p>
-                                        <h3 class="workCard__heading h0">
-                                            <p><i>M</i>ariah Carey to create content with <i>K</i>ay Jewelers</p>
-                                        </h3>
-                                        <p class="workCard__hashtag">#jewelry</p>
-                                    </div>
-                                </div>
-                                <div class="workCard sliderCard">
-                                    <div class="workCard__media">
-                                        <video muted="" loop="" playsinline="" class="media vid " poster="staging/etarnia-1.webp?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733157075&amp;s=84362a0167940d2e1eb30a9340701604">
-                                            <source src="staging/Check out the amazing range (1).mp4">
-                                        </video>
-                                    </div>
-                                    <div class="workCard__content">
-                                        <p class="subheading">We partnered with</p>
-                                        <h3 class="workCard__heading h0">
-                                            <p><i>K</i>alen Allen to create content for <i>S</i>tarbucks</p>
-                                        </h3>
-                                        <p class="workCard__hashtag">#foodandbev</p>
-                                    </div>
-                                </div>
-
-                                <div class="workCard sliderCard">
-                                    <div class="workCard__media">
-                                        <video muted="" loop="" playsinline="" class="media vid " poster="staging/poster-img.webp?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733157075&amp;s=84362a0167940d2e1eb30a9340701604">
-                                            <source src="staging/Kya aap logo ko pta hai ki yeh hobnob hai kya!.mp4">
-                                        </video>
-                                    </div>
-                                    <div class="workCard__content">
-                                        <p class="subheading">We partnered with</p>
-                                        <h3 class="workCard__heading h0">
-                                            <p><i>K</i>at Stickler to create content for <i>L</i>incoln</p>
-                                        </h3>
-                                        <p class="workCard__hashtag">#automotive</p>
-                                    </div>
-                                </div>
-
-                                <div class="workCard sliderCard active">
-                                    <div class="workCard__media">
-                                        <video muted="" loop="" playsinline="" class="media vid " poster="staging/etarnia-img.webp?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156720&amp;s=c4e265be02e04bcd47327595e793c517">
-                                            <source src="staging/Still using outdated UPVC windows Check this new patented material by @eternia.windows (a part of Hindalco - Aditya Birla Group). Duranium is 40 stronger than even your regular aluminium windows. But.mp4 ">
-                                        </video>
-                                    </div>
-                                    <div class="workCard__content">
-                                        <p class="subheading">We partnered with</p>
-                                        <h3 class="workCard__heading h0">
-                                            <p><i>D</i>avid<i> </i>Quarles IV to create content for <i>P</i>ennington</p>
-                                        </h3>
-                                        <p class="workCard__hashtag">#lifestyle</p>
-                                    </div>
-                                </div>
-
-                                <div class="workCard sliderCard">
-                                    <div class="workCard__media">
-                                        <video muted="" loop="" playsinline="" class="media vid " poster="staging/mcvities-3.webp?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156406&amp;s=b2805d1945e9993acc1b01ece4cac9c5">
-                                            <source src="staging/Soo.. Ye Hobnobs Kya hai If your.mp4">
-                                        </video>
-                                    </div>
-                                    <div class="workCard__content">
-                                        <p class="subheading">We partnered with</p>
-                                        <h3 class="workCard__heading h0">
-                                            <p><i>H</i>appyKelli to create content for <i>O</i>utshine Snacks</p>
-                                        </h3>
-                                        <p class="workCard__hashtag">#foodandbev</p>
-                                    </div>
-                                </div>
-
-                                <div class="workCard sliderCard">
-                                    <div class="workCard__media">
-                                        <video muted="" loop="" playsinline="" class="media vid " poster="staging/mcvities-2.webp?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156758&amp;s=9224cac0c5f73d77f8505a0d6e0bf55d">
-                                            <source src="staging/Time to put your thinking caps on.mp4">
-                                        </video>
-                                    </div>
-                                    <div class="workCard__content">
-                                        <p class="subheading">We partnered with</p>
-                                        <h3 class="workCard__heading h0">
-                                            <p>NBA Star<i> B</i>randon Beloti to create content for <i>W</i>endy's</p>
-                                        </h3>
-                                        <p class="workCard__hashtag">#sports</p>
-                                    </div>
-                                </div>
-
-                                <div class="workCard sliderCard">
-                                    <div class="workCard__media">
-                                        <video muted="" loop="" playsinline="" class="media vid " poster="staging/etarnia.webp?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733157230&amp;s=12067b170be9fab8010f827804ba90e3">
-                                            <source src="staging/Want a serene space while you host friends.mp4">
-                                        </video>
-                                    </div>
-                                    <div class="workCard__content">
-                                        <p class="subheading">We Partnered with</p>
-                                        <h3 class="workCard__heading h0">
-                                            <p><i>D</i>evon Rodriguez to create content for <i>V</i>8</p>
-                                        </h3>
-                                        <p class="workCard__hashtag">#foodandbev</p>
-                                    </div>
-                                </div>
+            <div class="workGallery">
+                <p class="galleryHeading text-center pb-5">Previous <span class="text-yellow">Work</span></p>
+                <div>
+                    <div class="slider">
+                        <div class="slide-track">
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1745172366995-a55968e94797?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743482858217-5aef42cfc636?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743653537429-a94889a6fd47?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1734917141553-274732d788cb?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://plus.unsplash.com/premium_photo-1739779212365-408eb31998ee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1744024450738-b040cffc7ff9?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743446598329-5d933172caff?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1742845918430-c6093f93f740?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1741807117240-0aee0cd41d25?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <!-- SAME SLIDES DOUBLED -->
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1745172366995-a55968e94797?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743482858217-5aef42cfc636?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743653537429-a94889a6fd47?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1734917141553-274732d788cb?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://plus.unsplash.com/premium_photo-1739779212365-408eb31998ee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1744024450738-b040cffc7ff9?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743446598329-5d933172caff?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1742845918430-c6093f93f740?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1741807117240-0aee0cd41d25?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> -->
-
-            <section class="campaignList">
-                <!-- <div class="campaignList__top">
-                    <h2 class="h0 campaignList__heading anima h-anim spanned in" data-spanner="w">
-                        <p><span class="w" data-i="1">PAST </span></p>
-                        <p><span class="w" data-i="2"><i>C</i>OLLABS </span></p>
-                    </h2>
-
-                </div> -->
-
-
-                <!-- <div class="campaignList__table">
-                    <div class="campaignList__row anima fade in">
-                        <span>Campaign</span>
-                        <span>Brand<span>Influencer</span></span>
-                        <span>Influencer</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Mcvities Biscuits Hobnobs</span>
-                        <span>mcvities india<span>Riddhi Dogra</span></span>
-                        <span>Riddhi Dogra</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span> Mcvities Biscuits Hobnobs</span>
-                        <span>Mcvities india<span>Shivesh Bhatia</span></span>
-                        <span>Shivesh Bhatia</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Mcvities Biscuits Hobnobs</span>
-                        <span>mcvities india<span>Pooja A Gor</span></span>
-                        <span>Pooja A Gor</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Mcvities Biscuits Hobnobs</span>
-                        <span>mcvities india<span>Ahmed Ashfaq</span></span>
-                        <span>Ahmed Ashfaq</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Mcvities Biscuits Hobnobs</span>
-                        <span>mcvities india<span>Pooja Dhingra</span></span>
-                        <span>Pooja Dhingra</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Imagine Windows Not Walls </span>
-                        <span>Eternia<span>BINITA GANDHI</span></span>
-                        <span>BINITA GANDHI</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Imagine Windows Not Walls</span>
-                        <span>Eternia<span>Sonika Khurana Sethi</span></span>
-                        <span>Sonika Khurana Sethi</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Imagine Windows Not Walls</span>
-                        <span>Eternia<span>Rishabh Wadhwa</span></span>
-                        <span>Rishabh Wadhwa</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Imagine Windows Not Walls</span>
-                        <span>Eternia<span>Rohina</span></span>
-                        <span>Rohina</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Imagine Windows Not Walls</span>
-                        <span>Eternia<span>Anjari Ganguly</span></span>
-                        <span>Anjari Ganguly</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>When you are ahead of your time</span>
-                        <span>Table Space<span>Corporate FILM</span></span>
-                        <span>Corporate FILM</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>On new car insurance</span>
-                        <span>ACKO<span>ACKO Billboard</span></span>
-                        <span>ACKO Billboard</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>American express card launch film </span>
-                        <span>Canada Cobalt OLV<span>Brand &amp; film</span></span>
-                        <span>Brand &amp; film</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>LAUNCH FILM</span>
-                        <span>Mid Ocean Brand<span>Brand film</span></span>
-                        <span>Brand film</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Two of the million story that shoping india</span>
-                        <span>Amity Film<span>Brand film</span></span>
-                        <span>Brand film</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>CGI campaign</span>
-                        <span>LOM<span>CORONA BEER</span></span>
-                        <span>CORONA BEER</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Lunched a velentine,s week</span>
-                        <span>McVitie’s<span>Valentine’s campaign</span></span>
-                        <span>Valentine’s campaign</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>Fashion launch film</span>
-                        <span>Amazon <span>Amazon Fashion</span></span>
-                        <span>Amazon Fashion</span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>case study</span>
-                        <span>Jeevansathi<span>influencer campaign </span></span>
-                        <span>influencer campaign </span>
-                    </div>
-                    <div class="campaignList__row anima fade in" onclick="this.classList.toggle('open')">
-                        <span>OLX The Great India Collector's ride</span>
-                        <span>OLX<span>Brand Film</span></span>
-                        <span>Brand Film</span>
-                    </div>
-                </div> -->
-
-
-            </section>
-
-
+            </div>
             <section class="callToAction">
-
                 <div class="callToAction__inner buttonHover">
                     <h2 class="h0 callToAction__heading h-anim anima spanned in" data-spanner="w">
                         <p><span class="w" data-i="1">Let’s </span>
@@ -292,13 +138,13 @@ include("header.php");
                                     <img src="staging/medium-shot-happy-girl-amusement-park.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1728475191&amp;s=b444caae8c8053615f2aac1babebf934" class="media img " alt="Screenshot 2024 08 21 at 11 21 00 AM">
                                 </picture>
                             </span>
-                            <span class="w" data-i="2"><i>T</i>alk </span>
+                            <span class="w" data-i="2">Talk </span>
                         </p>
                     </h2>
 
                     <div class="callToAction__buttonWrap">
                         <div data-follow=".callToAction__inner" style="transform: translate3d(-1.97626e-323px, -1.97626e-323px, 0px) rotate(-1.97626e-323deg);">
-                            <a href="https://www.rhythminfluence.com/contact" class="button anima in" data-anima-delay="30">
+                            <a href="https://lomdigital.com/lomdigitalweb/contact" class="button anima in" data-anima-delay="30">
                                 <span class="button__inner">Get Started</span>
                             </a>
 
@@ -306,7 +152,6 @@ include("header.php");
                     </div>
                     <p class="body anima fade in" data-anima-delay="10">The right strategy starts with a hello.</p>
                 </div>
-
             </section>
             <div id="htmlclass" data-class=""></div>
         </main>
@@ -314,6 +159,8 @@ include("header.php");
 
     <div class="transition-fade"></div>
 
+
+    <script src="newscript.js"></script>
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
     <script type="text/javascript" src="/dist/scripts.min.js?v=f04410382da0897ff06dd18a9fab5697806283f0"></script>
 

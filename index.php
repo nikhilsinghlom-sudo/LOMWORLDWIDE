@@ -11,10 +11,10 @@ include("header.php");
     <div id="container mx-auto">
         <main id="main" class="">
             <section class="LomLogo">
-                <img src="staging/LOMLOGO.png" alt="">
+                <img src="staging/lomLogo.png" alt="LOM Logo">
             </section>
             <section class="story pt-0">
-                <p class="storyText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores sunt aperiam ea asperiores alias modi suscipit optio placeat, atque esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi itaque quibusdam nihil debitis vitae rem delectus cupiditate saepe ducimus perferendis. Saepe dignissimos nulla sit sapiente similique neque. Beatae excepturi pariatur nostrum, hic explicabo eaque! Obcaecati perspiciatis maiores molestiae ratione nulla, laudantium voluptate ut sit autem quod voluptatibus provident nobis voluptas voluptates sunt atque est ea accusamus cupiditate at minus culpa veniam dignissimos. Obcaecati eum officiis vero, assumenda delectus sed animi reprehenderit veniam cum aut, ipsa temporibus laudantium autem totam distinctio iure aliquam perspiciatis nobis unde quo iste possimus. Minus unde accusamus cumque facere corporis, harum nam exercitationem nulla consequuntur enim atque impedit.
+                <p class="storyText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores sunt aperiam ea asperiores alias modi suscipit optio placeat, atque esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi itaque quibusdam nihil debitis vitae rem delectus cupiditate saepe ducimus perferendis. Saepe dignissimos nulla sit sapiente similique neque. Beatae excepturi pariatur nostrum, hic explicabo eaque! Obcaecati perspiciatis maiores molestiae ratione nulla, laudantium voluptate ut sit autem quod voluptatibus provident nobis voluptas voluptates sunt atque est ea accusamus cupiditate at minus culpa veniam dignissimos. Obcaecati eum officiis vero, assumenda delectus sed animi reprehenderit veniam cum aut, ipsa temporibus laudantium autem totam distinctio iure aliquam perspiciatis nobis unde quo iste possimus.
                 </p>
             </section>
             <!-- to be changed! -->
