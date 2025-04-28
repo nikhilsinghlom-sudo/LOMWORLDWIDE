@@ -63,14 +63,10 @@
                             <span class="in">things </span>
                         </p>
                         <p>
-                            <span class="in">
-
-                                <strong>up</strong>
-                            </span>
+                            <span class="text-yellow">up</span>
                             <span class="in">mix, </span>
                         </p>
-                        <p><span class="in">
-                                <strong>a little</strong>
+                        <p><span class="text-yellow">a little
                             </span>
                             <span class="">odd </span>
                             <span class="">with </span>
@@ -86,13 +82,10 @@
                             <span class="">Marketing </span>
                         </p>
                         <p>
-                            <span class="">
-                                <strong>magic</strong>
-                            </span>
+                            <span class="text-yellow">magic</span>
                         </p>
                         <p>
-                            <span class="">
-                                <strong>that</strong>
+                            <span class="text-yellow">that
                             </span><span class="">actually </span>
                             <span class="">Sticks. </span>
                         </p>
@@ -177,7 +170,6 @@
                     </div>
                 </div>
             </section>
-
             <section class="ourTeam">
                 <h2 class="h0 ourTeam__heading scroll zero smd h-anim anima spanned text-center" data-spanner="w" data-anima-delay="10">
                     <p>
@@ -189,10 +181,10 @@
                     </p>
                 </h2>
                 <div class="row align-items-center">
-                    <div class=" col-md-6">
+                    <div class="col-lg-6 text-center">
                         <img src="staging/krittika.webp" alt="" width="90%" style="border-radius: 10px;">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 py-4">
                         <p style="font-size: 20px;font-weight: 500;line-height: 30px;">Krittika tosses up a Filipino Spaghetti as easily as conjuring up a Digital Communication Strategy. A Management postgraduate from Chandigarh University and thereafter intense and immersive stints at the top rung of Advertising with the big boys like Ogilvy & Mather and J Walter Thompson prepared her to take on the world of marketing communication. But getting lost in a big pond was not her idea of a future. She decided to start on her own when she realized that she wanted to achieve much bigger things with her cache of rich experience. And in the process, drastically change the way the industry viewed the client-agency relationship. A big objective in professional life for one so young.</p>
                     </div>
                 </div>
@@ -303,19 +295,38 @@
                         <p class="ourTeam__name"><span class="text-yellow">Vishank</span> Chaudhary</p>
                         <span class="ourTeam__position">Sr. Motion Graphic Designer</span>
                     </div>
+                    <div class="ourTeam__member scroll anima smd fade" data-anima-delay="3.5">
+                        <picture>
+                            <source srcset="staging/Abhimanyu_Singh.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=8144856f09395c27404cc8788ac17deb 1x, staging/Abhimanyu_Singh.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=6d6e692163c72aa433b30c391caea576 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb 1x, staging/Abhimanyu_Singh.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=ad0148d3fd166debccec9a6bf3925d94 2x" media="(min-width: 800px)">
+                            <img src="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb" class="media img ourTeam__photo" alt="JB">
+                        </picture>
+                        <p class="ourTeam__name"><span class="text-yellow">Abhimanyu</span> Singh</p>
+                        <span class="ourTeam__position">Social Media Manager</span>
+                    </div>
+
+                    <div class="ourTeam__member scroll anima smd fade" data-anima-delay="5">
+                        <picture>
+                            <source srcset="staging/Shweta_Sharma.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=9920eb4c8af0adcfe124db2fae9af57a 1x, staging/Shweta_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=108cb6008352617d9370423a2bf6b544 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Shweta_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099 1x, staging/Shweta_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=1d99a01bc15785877f9a4434c7b4ad4f 2x" media="(min-width: 800px)">
+                            <img src="staging/Shweta_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099" class="media img ourTeam__photo" alt="Katie">
+                        </picture>
+
+                        <p class="ourTeam__name"><span class="text-yellow">Shweta</span> Sharma</p>
+                        <span class="ourTeam__position">HR Manager </span>
+                    </div>
                 </div>
             </section>
             <section class="officeList">
-                <h2 class="subheading anima fade scroll">Our offices</h2>
+                <h2 class="subheading anima fade scroll text-yellow">Our office</h2>
                 <div class="officeList__list">
                     <div class="officeList__office scroll anima fade" data-timezone="-4">
                         <h3 class="h0 officeList__name h-anim anima spanned" data-spanner="w">
-                            <p><span class="w" data-i="1">Gurugram,HR&nbsp; </span>
+                            <p><span class="w" data-i="1">Suncity Success Tower, 428-429,
+                                    Sector 65,
+                                    Gurugram, Haryana 122018</span>
                             </p>
                         </h3>
-                        <p class="officeList__address">Suncity Success Tower, 428-429,
-                            Sector 65,
-                            Gurugram, Haryana 122018</p>
                         <a href="https://www.google.com/maps/dir//Suncity+Success+Tower,+Golf+Course+Ext+Rd,+The+Close+South,+Sector+65,+Gurugram,+Haryana+122102/@28.408106,76.987809,11z/data=!4m9!4m8!1m0!1m5!1m1!1s0x390d22692a4e3faf:0xeb5a2617558c5e55!2m2!1d77.0702103!2d28.4081306!3e0?hl=en&entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank"></a>
                     </div>
                     <div class="officeList__office scroll anima fade" data-timezone="-5">

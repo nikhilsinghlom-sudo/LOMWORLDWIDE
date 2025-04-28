@@ -427,59 +427,6 @@ include("header.php");
                     <span class="homeHeader__decoText subheading anima fade" data-anima-delay="25"></span>
                 </section>
             </div>
-
-            <!-- VIDEOS -->
-            <!-- <section class="homeHeader anima in inited" id="home-header" data-anima-delay="4">
-                <div class="homeHeader__mediaCards">
-                    <div class="homeHeader__mediaCard">
-                        <video autoplay="" muted="" loop="" playsinline="" class="media vid " poster="" ?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156415&amp;s=d2a0bf388444e9e1d7f6dc7d78ec352e">
-                            <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (1).mp4">
-                        </video>
-                    </div>
-                    <div class="homeHeader__mediaCard">
-                        <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/David-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730986844&s=e775cc6b51bdc360b8f16b265e8baeaa">
-                            <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(min-width: 800px)">
-                            <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(max-width: 800px)">
-                        </video>
-                    </div>
-                    <div class="homeHeader__mediaCard">
-                        <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Meg-Poster-Video.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730986119&s=1a1bb8800c645af935afcba95a42f0d2">
-                            <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (2).mp4" media="(min-width: 800px)">
-                            <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (2).mp4" media="(max-width: 800px)">
-                        </video>
-                    </div>
-                    <div class="homeHeader__mediaCard">
-                        <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Kalen-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730985719&s=dea294e78a9740b1a7eb4da26e03c240">
-                            <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha.mp4" media="(min-width: 800px)">
-                            <source src="https://lomdigital.com/lomdigitalweb//staging/Standard_Mode_Animate_the_character_animate_ha.mp4" media="(max-width: 800px)">
-                        </video>
-                    </div>
-                    <div class="homeHeader__mediaCard">
-                        <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Mariah-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730985798&s=d62694f24895307ee8455d1c03a33396">
-                            <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha (1).mp4" media="(min-width: 800px)">
-                            <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha (1).mp4" media="(max-width: 800px)">
-                        </video>
-                    </div>
-                </div>
-                <div class="homeHeader__content">
-                    <h1 class="h0 homeHeader__heading zero h-anim anima spanned in" data-spanner="w" data-anima-delay="3">
-                        <p>
-                            <span class="w" data-i="1">We </span>
-                            <span class="split"> </span>
-                            <span class="w" data-i="2">Are </span>
-                        </p>
-                        <p>
-                            <span class="w" data-i="3" style="position: relative;left: 45px;"><span style="font-size:110px;position:relative;bottom:13px;font-family: Varenda, cursive;font-weight: 400;letter-spacing: 0.05em;padding-left: 0.1em;line-height: 0.8;">Y</span>our </span>
-                            <span class="split"> </span>
-                            <span class="w" data-i="4" style="position: relative;left: 24px;">Brand </span>
-                            <span class="w" data-i="4" style="position: relative;top: 90px;">Architects </span>
-                        </p>
-                    </h1>
-                    <p class="bodyst anima fade in" data-anima-delay="18" style="margin-top:100px;">Making marketing look easy—but behind the scenes, it’s all strategy, science, and a touch of digital magic.</p>
-                </div>
-                <span class="homeHeader__decoText subheading anima fade" data-anima-delay="25"></span>
-            </section> -->
-
             <!-- INFINITY LOGO BANNER SECTION -->
             <section class="partnersSection">
                 <section class="mediaSentence">
@@ -540,13 +487,13 @@ include("header.php");
                             </div>
 
                             <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                                <img src="staging/Disney-01.svg" class="media img "
-                                    alt="Wendys">
+                                <img src="staging/spsuLogo.png" class="media img "
+                                    alt="SPSU Logo">
                                 <span></span>
                             </div>
                             <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                                <img src="staging/dalmia.svg?dm=1728475199" class="media img "
-                                    alt="Toyota">
+                                <img src="staging/table space.png" class="media img "
+                                    alt="Table Space Logo">
                                 <span></span>
                             </div>
                             <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">

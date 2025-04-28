@@ -1,13 +1,6 @@
-<!--<div id="container">-->
-<!--<nav class="nav" id="nav">-->
-<!--    <div class="nav__bar">-->
-<!--        <a href="index.html" class="nav__logo">-->
-<!--          <img src="staging/LOM Logo Final-01.webp" class="media img " alt="Nav logo">  -->
-<!--        </a>-->
-<!--    </div>-->
-<!--</nav>-->
-<!--</div>-->
-<!--======================================-->
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,11 +9,6 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
-
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="css2?family=Archivo:wght@100..900&display=swap" rel="stylesheet"> -->
 
 <!-- poppins fonts -->
 
@@ -44,25 +32,19 @@
             <img src="staging/lomLogo.png" class="media img" alt="LOM logo">
         </a>
         <div class="nav__links">
-            <a href="our-work.php" class="link nav__linkz flipLink ps-3" data-content="Our Work">
+            <a href="our-work.php" class="link nav__linkz flipLink ps-3 <?= ($currentPage == 'our-work.php') ? "active" : "" ?>" data-content="Our Work">
                 <span>Our Work</span>
             </a>
-            <a href="company.php" class="link nav__linkz flipLink ps-3" data-content="Company">
+            <a href="company.php" class="link nav__linkz flipLink ps-3 <?= ($currentPage == 'company.php') ? "active" : "" ?>" data-content="Company">
                 <span>Company</span>
             </a>
-            <a href="services.php" class="link nav__linkz flipLink ps-3" data-content="Services">
+            <a href="services.php" class="link nav__linkz flipLink ps-3 <?= ($currentPage == 'services.php') ? "active" : "" ?>" data-content="Services">
                 <span>Services</span>
             </a>
-            <a href="contact.php" class="link nav__linkz flipLink ps-3" data-content="Contact">
+            <a href="contact.php" class="link nav__linkz flipLink ps-3 <?= ($currentPage == 'contact.php') ? "active" : "" ?>" data-content="Contact">
                 <span>Contact</span>
             </a>
         </div>
-
-        <!-- <div class="nav__cta">
-            <a href="https://www.lomdigital.com/lomdigitalweb/contact.php" class="arrowButton ">
-                <span class="arrowButton__arrow"><img src="https://lomdigital.com/lomdigitalweb/ui/button_arrow.svg"><img src="https://lomdigital.com/lomdigitalweb/ui/button_arrow.svg"></span><span class="arrowButton__label" data-content="Get in Touch"><span>Get in Touch</span></span>
-            </a>
-        </div> -->
         <div class="nav__toggle" id="nav-toggle">
             <span><span><i class="fa-solid fa-bars"></i></span></span>
         </div>
@@ -71,18 +53,17 @@
         <div class="nav__menuBg"></div>
         <div class="nav__menuInner">
             <div class="nav__menuLinks">
-
-                <a href="https://www.lomdigital.com/lomdigitalweb/our-work.php" class="link nav__menuLink" data-content="Our Work">
+                <a href="our-work.php" class="link nav__menuLink <?= ($currentPage == 'our-work.php') ? "active" : "" ?>" data-content="Our Work">
                     <span>Our Work</span>
                 </a>
-                <a href="https://www.lomdigital.com/lomdigitalweb/company.php" class="link nav__menuLink" data-content="Company">
+                <a href="company.php" class="link nav__menuLink <?= ($currentPage == 'company.php') ? "active" : "" ?>" data-content="Company">
                     <span>Company</span>
                 </a>
-                <a href="https://www.lomdigital.com/lomdigitalweb/services.php" class="link nav__menuLink" data-content="Services">
+                <a href="services.php" class="link nav__menuLink <?= ($currentPage == 'services.php') ? "active" : "" ?>" data-content="Services">
                     <span>Services</span>
                 </a>
-                <a href="https://www.lomdigital.com/lomdigitalweb/contact.php" class="link nav__menuLink" data-content="Get In Touch">
-                    <span>Get In Touch</span>
+                <a href="contact.php" class="link nav__menuLink <?= ($currentPage == 'contact.php') ? "active" : "" ?>" data-content="Get In Touch">
+                    <span>Contact</span>
                 </a>
             </div>
         </div>

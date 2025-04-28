@@ -23,26 +23,25 @@
                 <div class="mediaHeader__inner">
                     <h2 class="h0 mediaHeader__heading zero h-anim anima spanned in" data-spanner="w">
                         <p>
-                            <span class="w" data-i="1"><span><span class="youmobsty" style="font-size:110px;position:relative;bottom:13px;font-family: Varenda, cursive;font-weight: 400;letter-spacing: 0.05em;padding-left: 0.1em;line-height: 0.8;">Y</span>our</span>
+                            <span class="w" data-i="1">Your</span>
                         </p>
-                        <p><span class="w" data-i="2">digital&nbsp; </span>
-                        </p>
-                        <p>
-                            <span class="w" data-i="3"><i><strong>N</strong></i><strong>eeds&nbsp;</strong>
-                            </span>
+                        <p><span class="w" data-i="2">digital&nbsp;</span>
                         </p>
                         <p>
-                            <span class="w" data-i="4"><strong>covered</strong> </span>
+                            <span class="w text-yellow" data-i="3">Needs&nbsp;</span>
+                        </p>
+                        <p>
+                            <span class="w text-yellow" data-i="4">covered</span>
                         </p>
                     </h2>
                 </div>
                 <div class="mediaHeader__bottom">
-                    <p class="body anima fade in" data-anima-delay="10">We don’t do one-size-fits-all; every service is as unique as your brand, bringing the impact you deserve</p>
+                    <p class="body anima fade in text-center" data-anima-delay="10">We don’t do one-size-fits-all; every service is as unique as your brand, bringing the impact you deserve</p>
                 </div>
             </section>
             <!-- SERVICES LIST SECTION -->
             <section class="servicesList">
-                <h2 class="subheading anima fade in">Our services</h2>
+                <h2 class="subheading anima fade in text-yellow">Our services</h2>
                 <div class="servicesList__list">
                     <div class="servicesList__service anima in">
                         <div class="serviceList__inner anima fade in">
@@ -134,14 +133,8 @@
                             <span class="w" data-i="3">Intelligence </span>
                         </p>
                         <p>
-                            <span class="w" data-i="4">
-                                <i>
-                                    <strong>W</strong>
-                                </i>
-                                <strong>ith</strong>
-                            </span>
-                            <strong>
-                                <span class="w" data-i="5">Creative</span></strong>&nbsp;
+                            <span class="text-yellow w" data-i="4">With</span>
+                            <span class="text-yellow w" data-i="5">Creative</span>&nbsp;
                         </p>
                         <p>
                             <span class="w" data-i="6">Storytelling</span>
@@ -164,16 +157,12 @@
                             <span class="w" data-i="3">Intelligence&nbsp; </span>
                         </p>
                         <p>
-                            <span class="w" data-i="4">
-                                <i>
-                                    <strong>W</strong>
-                                </i>
-                                <strong>ith&nbsp;</strong>
-                            </span>
+                            <span class="w text-yellow" data-i="4">
+                                With&nbsp;</span>
                         </p>
                         <p>
-                            <span class="w" data-i="4">
-                                <strong>Creative</strong>&nbsp;
+                            <span class="w text-yellow" data-i="4">
+                                Creative&nbsp;
                             </span>
                         </p>
                         <p>
@@ -335,188 +324,129 @@
                 </div>
             </section>
             <!-- INFINITY LOGO BANNER SECTION -->
-            <section class="logoBanner">
-                <div class="logoBanner__row">
-                    <div class="logoBanner__rail" data-looper=".logoBanner" data-looper-speed="-1">
-                        <div class="logoBanner__logo" style="transform: translateX(2315.31px);">
-                            <img src="staging/logo-audi-thumbnail.svg?dm=1728475199" class="media img "
-                                alt="Wendys">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(2315.31px);">
-                            <img src="staging/Magicbricks (1).svg?dm=1728475199" class="media img "
-                                alt="Magicbricks">
-                            <span>
-                            </span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/Jeevansathi_Logo w (1).svg?dm=1728475198"
-                                class="media img " alt="Starbucks">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/AMAZONE.svg?dm=1728475194"
-                                class="media img " alt="Logitech">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/BENNETT.svg?dm=1728475193" class="media img "
-                                alt="Kfc">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/NAUKRI.svg?dm=1728475193" class="media img "
-                                alt="Ford">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/Yahoo.svg?dm=1728475192"
-                                class="media img " alt="Campbells">
-                            <span></span>
-                        </div>
-
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/Disney-01.svg?dm=1728475199" class="media img "
-                                alt="Wendys">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/dalmia.svg?dm=1728475199" class="media img "
-                                alt="Toyota">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/logo-audi-thumbnail.svg?dm=1728475198"
-                                class="media img " alt="Starbucks">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/Magicbricks (1).svg?dm=1728475194"
-                                class="media img " alt="Logitech">
-                            <span>
-                            </span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/Jeevansathi_Logo w (1).svg?dm=1728475193" class="media img "
-                                alt="Kfc">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/AMAZONE.svg?dm=1728475193" class="media img "
-                                alt="Ford">
-                            <span></span>
-                        </div>
-                        <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
-                            <img src="staging/BENNETT.svg?dm=1728475192"
-                                class="media img " alt="Campbells">
-                            <span></span>
+            <section class="partnersSection">
+                <section class="mediaSentence">
+                    <div class="mediaSentence__main pal">
+                        <span class="anima fade in subheading">PARTNERING</span>
+                        <div class="mt-4 h0 partnersText pal-reveal" data-pal="0.155" data-pal-push="4.5">
+                            <p>
+                                <span class="in">Rolling with </span>
+                                <span class="in">the </span>
+                                <span class="in">biggest </span>
+                                <span class="">
+                                    <strong>Names </strong>
+                                </span>
+                                <span class="">IN </span>
+                                <span class="">THE </span>
+                                <span class="">BIZ! </span>
+                            </p>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+                <section class="logoBanner">
+                    <div class="logoBanner__row">
+                        <div class="logoBanner__rail" data-looper=".logoBanner" data-looper-speed="-1">
+                            <div class="logoBanner__logo" style="transform: translateX(2315.31px);">
+                                <img src="staging/jswhomes.png" class="media img "
+                                    alt="JSW Homes Logo">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(2315.31px);">
+                                <img src="staging/JSWMSME.png" class="media img "
+                                    alt="JSW MSME Logo">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/jswtmt.png"
+                                    class="media img " alt="JSW TMT Logo">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/recylamine logo.png"
+                                    class="media img " alt="Recylamine Logo">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/Mcvities.png" class="media img "
+                                    alt="Mcvities Logo">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/MyFM.png" class="media img "
+                                    alt="My FM">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/Eternia.png"
+                                    class="media img " alt="Eternia Logo">
+                                <span></span>
+                            </div>
 
-            <section class="nameCta init move" data-car="names" data-car-active="0" data-car-count="5" data-car-interval="3000">
-                <div class="nameCta__inner buttonHover">
-                    <h2 class="h0 nameCta__heading h-anim anima spanned in" data-spanner="w">
-                        <p>
-                            <span class="w" data-i="1">Meet </span>
-                            <span class="nameCta__slides">
-                                <em class="nameCta__slide slide" data-car-slide="0">
-                                    <i class="window">
-                                        <picture>
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/Belotti.png?w=100&amp;h=90&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729195091&amp;s=5b9de9356fbd5b7efd7263b10ecb2774 1x, https://rhythm-influence.transforms.svdcdn.com/staging/Belotti.png?w=200&amp;h=180&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729195091&amp;s=4190ad99d782775fe50f01812842a908 2x"
-                                                media="(max-width: 800px)">
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/Belotti.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729195091&amp;s=5457e905fefe0c5334195372d4c9a89c 1x, https://rhythm-influence.transforms.svdcdn.com/staging/Belotti.png?w=412&amp;h=454&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729195091&amp;s=6c770615f84d0236f5a59c53a8ad6e47 2x"
-                                                media="(min-width: 800px)">
-                                            <img src="https://rhythm-influence.transforms.svdcdn.com/staging/Belotti.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729195091&amp;s=5457e905fefe0c5334195372d4c9a89c"
-                                                class="media img " alt="Belotti">
-                                        </picture>
-                                    </i>
-                                </em>
-                                <em class="nameCta__slide slide was-active" data-car-slide="1">
-                                    <i class="window">
-                                        <picture>
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/Kalen-V2.png?w=100&amp;h=90&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272484&amp;s=9c63a2c388c3b6b7da2e887343015914 1x, https://rhythm-influence.transforms.svdcdn.com/staging/Kalen-V2.png?w=200&amp;h=180&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272484&amp;s=b43d6b0d4a30769709d7eb505a57c719 2x"
-                                                media="(max-width: 800px)">
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/Kalen-V2.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272484&amp;s=bda42def1c4ead1cfc1c67563bf97ef0 1x, https://rhythm-influence.transforms.svdcdn.com/staging/Kalen-V2.png?w=412&amp;h=454&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272484&amp;s=783e523edb7b78c95dd48b78722e8269 2x"
-                                                media="(min-width: 800px)">
-                                            <img src="https://rhythm-influence.transforms.svdcdn.com/staging/Kalen-V2.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272484&amp;s=bda42def1c4ead1cfc1c67563bf97ef0"
-                                                class="media img " alt="Kalen V2">
-                                        </picture>
-                                    </i>
-                                </em>
-                                <em class="nameCta__slide slide active" data-car-slide="2">
-                                    <i class="window">
-                                        <picture>
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/David-Small_02.png?w=100&amp;h=90&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730744959&amp;s=853fcb125d3e53082bc5b53b54dc404b 1x, https://rhythm-influence.transforms.svdcdn.com/staging/David-Small_02.png?w=200&amp;h=180&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730744959&amp;s=281a2973c7064108ed1e3449bf0b1665 2x"
-                                                media="(max-width: 800px)">
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/David-Small_02.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730744959&amp;s=df48ed85352a35607b02e53661786663 1x, https://rhythm-influence.transforms.svdcdn.com/staging/David-Small_02.png?w=412&amp;h=454&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730744959&amp;s=cfb0358e9edc1fcb00d6693a6369335b 2x"
-                                                media="(min-width: 800px)">
-                                            <img src="https://rhythm-influence.transforms.svdcdn.com/staging/David-Small_02.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730744959&amp;s=df48ed85352a35607b02e53661786663"
-                                                class="media img " alt="David Small 02">
-                                        </picture>
-                                    </i>
-                                </em>
-                                <em class="nameCta__slide slide" data-car-slide="3">
-                                    <i class="window">
-                                        <picture>
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/YESENIA.png?w=100&amp;h=90&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1728475192&amp;s=7951f39590cf9f5822c20ed79bce9ccc 1x, https://rhythm-influence.transforms.svdcdn.com/staging/YESENIA.png?w=200&amp;h=180&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1728475192&amp;s=ef921c4d049dd29861cda9324108728e 2x"
-                                                media="(max-width: 800px)">
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/YESENIA.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1728475192&amp;s=f2479d2e96f584bac05b0dedd960c2a5 1x, https://rhythm-influence.transforms.svdcdn.com/staging/YESENIA.png?w=412&amp;h=454&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1728475192&amp;s=996a646790fbb0210e72168fe037aa46 2x"
-                                                media="(min-width: 800px)">
-                                            <img src="https://rhythm-influence.transforms.svdcdn.com/staging/YESENIA.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1728475192&amp;s=f2479d2e96f584bac05b0dedd960c2a5"
-                                                class="media img " alt="YESENIA">
-                                        </picture>
-                                    </i>
-                                </em>
-                                <em class="nameCta__slide slide" data-car-slide="4">
-                                    <i class="window">
-                                        <picture>
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/Marcus-Edit.png?w=100&amp;h=90&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272498&amp;s=57cf88d9921586cea88da974b4b739a0 1x, https://rhythm-influence.transforms.svdcdn.com/staging/Marcus-Edit.png?w=200&amp;h=180&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272498&amp;s=d20f33795dd960c85cdbf271c3b89010 2x"
-                                                media="(max-width: 800px)">
-                                            <source
-                                                srcset="https://rhythm-influence.transforms.svdcdn.com/staging/Marcus-Edit.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272498&amp;s=a9783dc0b3f713acab0c7bf08f954a28 1x, https://rhythm-influence.transforms.svdcdn.com/staging/Marcus-Edit.png?w=412&amp;h=454&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272498&amp;s=2a95506eea762c644258198cf2feb424 2x"
-                                                media="(min-width: 800px)">
-                                            <img src="https://rhythm-influence.transforms.svdcdn.com/staging/Marcus-Edit.png?w=206&amp;h=227&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1729272498&amp;s=a9783dc0b3f713acab0c7bf08f954a28"
-                                                class="media img " alt="Marcus Edit">
-                                        </picture>
-                                    </i>
-                                </em>
-                            </span>
-                            <span class="w" data-i="2">your </span>
-                        </p>
-                        <p>
-                            <span class="w" data-i="3">match </span>
-                            <span class="nameCta__names maskIn" style="width: 497px;">
-                                <span class="nameCta__name slideWidth" data-car-slide="0"><i>B</i>randon</span>
-                                <span class="nameCta__name slideWidth was-active" data-car-slide="1"><i>K</i>alen</span>
-                                <span class="nameCta__name slideWidth active" data-car-slide="2"><i>D</i>avid</span>
-                                <span class="nameCta__name slideWidth" data-car-slide="3"><i>Y</i>esenia</span>
-                                <span class="nameCta__name slideWidth" data-car-slide="4"><i>M</i>arcus</span>
-                                <span class="w" data-i="4">
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/spsuLogo.png" class="media img "
+                                    alt="SPSU Logo">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/table space.png" class="media img "
+                                    alt="Table Space Logo">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/logo-audi-thumbnail.svg"
+                                    class="media img " alt="Starbucks">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/Magicbricks (1).svg?dm=1728475194"
+                                    class="media img " alt="Logitech">
+                                <span>
                                 </span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/Jeevansathi_Logo w (1).svg?dm=1728475193" class="media img "
+                                    alt="Kfc">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/AMAZONE.svg?dm=1728475193" class="media img "
+                                    alt="Ford">
+                                <span></span>
+                            </div>
+                            <div class="logoBanner__logo" style="transform: translateX(-2037.69px);">
+                                <img src="staging/BENNETT.svg?dm=1728475192"
+                                    class="media img " alt="Campbells">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- CALL TO ACTION SECTION -->
+            <section class="callToAction">
+                <div class="callToAction__inner buttonHover">
+                    <h2 class="h0 callToAction__heading h-anim anima spanned in" data-spanner="w">
+                        <p><span class="w" data-i="1">Let’s</span>
+                            <span class="window">
+                                <picture>
+                                    <source srcset="staging/freepik__expand__63000.webp?w=120&amp;h=110&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=b02ccf128f62343a97ac31068ebb9951 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 2x" media="(max-width: 800px)">
+                                    <source srcset="staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=480&amp;h=440&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=68f9b95c748da17b50af0c36392a626c 2x" media="(min-width: 800px)">
+                                    <!-- <source srcset="https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=120&amp;h=110&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=b02ccf128f62343a97ac31068ebb9951 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 2x" media="(max-width: 800px)">
+                                    <source srcset="https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=480&amp;h=440&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=68f9b95c748da17b50af0c36392a626c 2x" media="(min-width: 800px)"> -->
+                                    <img src="https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba" class="media img " alt="Dj Girl">
+                                </picture>
                             </span>
+                            <span class="w" data-i="2">Talk!</span>
                         </p>
                     </h2>
-                    <div class="nameCta__buttonWrap">
-                        <div data-follow=".nameCta__inner"
-                            style="transform: translate3d(-1.19873e-14px, 3.98961e-15px, 0px) rotate(-1.52644e-15deg);">
-                            <a href="https://www.rhythminfluence.com/contact" class="button anima in" data-anima-delay="30">
+                    <div class="callToAction__buttonWrap">
+                        <div data-follow=".callToAction__inner" style="transform: translate3d(0px, 0px, 0px) rotate(0deg);">
+                            <a href="https://lomdigital.com/lomdigitalweb/contact" class="button anima in" data-anima-delay="30">
                                 <span class="button__inner">Get Started</span>
                             </a>
                         </div>
                     </div>
-                    <p class="body anima fade in" data-anima-delay="30">Let's find your perfect match.</p>
-                    <a class="nameCta__anchor" href="https://www.rhythminfluence.com/contact"></a>
+                    <p class="body anima fade in" data-anima-delay="10">The right strategy starts with a hello.</p>
                 </div>
             </section>
 

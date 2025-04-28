@@ -23,19 +23,19 @@
                                     <img src="https://rhythm-influence.transforms.svdcdn.com/staging/Contact-Image.png?w=380&amp;h=280&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=0a920e52451f82725c5020f03570d7a4" class="media img " alt="Contact Image">
                                 </picture>
                             </span>
-                            <span class="w" data-i="2"><i>c</i>hat </span>
+                            <span class="w" data-i="2">chat </span>
                         </p>
                     </h2>
                     <div class="shortHeader__bottom anima fade in" data-anima-delay="5">
                         <p class="body anima fade in" data-anima-delay="10">Have a specific inquiry or partnership request? Fill out the form here and we’ll get back to you asap.</p>
-                        <div class="shortHeader__links">
+                        <!-- <div class="shortHeader__links">
                             <a href="https://www.instagram.com/rhythminfluence/" class="link footer__socialLink flipLink" target="_blank" data-content="Instagram">
                                 <span>Instagram</span>
                             </a>
                             <a href="https://www.linkedin.com/company/rhythminfluence/posts/?feedView=all" class="link footer__socialLink flipLink" target="_blank" data-content="LinkedIn">
                                 <span>LinkedIn</span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -71,24 +71,18 @@
             </section>
 
             <section class="officeList">
-                <h2 class="subheading anima fade in">Our Offices</h2>
+                <h2 class="subheading anima fade scroll text-yellow">Our office</h2>
                 <div class="officeList__list">
-                    <div class="officeList__office anima fade in" data-timezone="-4">
-                        <h3 class="h0 officeList__name h-anim anima spanned in" data-spanner="w">
-                            <p><span class="w" data-i="1">Gurugram,HR&nbsp; </span>
+                    <div class="officeList__office scroll anima fade" data-timezone="-4">
+                        <h3 class="h0 officeList__name h-anim anima spanned" data-spanner="w">
+                            <p><span class="w" data-i="1">Suncity Success Tower, 428-429,
+                                    Sector 65,
+                                    Gurugram, Haryana 122018</span>
                             </p>
                         </h3>
-
-                        <p class="officeList__address">Suncity Success Tower, 428-429,
-                            Sector 65,
-                            Gurugram, Haryana 122018</p>
                         <a href="https://www.google.com/maps/dir//Suncity+Success+Tower,+Golf+Course+Ext+Rd,+The+Close+South,+Sector+65,+Gurugram,+Haryana+122102/@28.408106,76.987809,11z/data=!4m9!4m8!1m0!1m5!1m1!1s0x390d22692a4e3faf:0xeb5a2617558c5e55!2m2!1d77.0702103!2d28.4081306!3e0?hl=en&entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank"></a>
                     </div>
-
-                    <div class="officeList__timeWrap">
-                        <div data-follow=".officeList__list" data-follow-jump="" data-follow-diag="" style="transform: translate3d(-783.843px, -233.602px, 0px) rotate(1.56092deg);">
-                            <div class="officeList__time"><img src="ui/time.svg"><span id="time">3.5<span>:</span>49 pm</span></div>
-                        </div>
+                    <div class="officeList__office scroll anima fade" data-timezone="-5">
                     </div>
                 </div>
             </section>

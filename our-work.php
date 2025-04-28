@@ -11,7 +11,6 @@ include("header.php");
     <div id="container">
         <main id="main" class="">
             <div class="workInfo text-center">
-                <!-- <p class="heading text-center">WORK</p> -->
                 <h2 class="h0 subHeading text-center pt-5">Our Work <br> <span class="text-yellow">Speaks</span> for Itself</h2>
             </div>
             <div class="workSection">

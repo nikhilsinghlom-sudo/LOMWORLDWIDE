@@ -3,17 +3,17 @@
 
   <div class="footerContent d-flex justify-content-between">
     <div class="footer__mainLinks">
-      <a href="https://www.lomdigital.com/lomdigitalweb/our-work.php" class="text-decoration-none link footer__mainLink anima maskIn in" data-content="Our Work">
+      <a href="our-work.php" class="text-decoration-none link footer__mainLink anima maskIn in" data-content="Our Work">
         <span>Our Work</span>
       </a>
-      <a href="https://www.lomdigital.com/lomdigitalweb/company.php" class="text-decoration-none link footer__mainLink anima maskIn in" data-content="Company">
+      <a href="company.php" class="text-decoration-none link footer__mainLink anima maskIn in" data-content="Company">
         <span>Company</span>
       </a>
-      <a href="https://www.lomdigital.com/lomdigitalweb/services.php" class="text-decoration-none link footer__mainLink anima maskIn in" data-content="Services">
+      <a href="services.php" class="text-decoration-none link footer__mainLink anima maskIn in" data-content="Services">
         <span>Services</span>
       </a>
-      <a href="https://www.lomdigital.com/lomdigitalweb/contact.php" class="text-decoration-none link footer__mainLink anima maskIn in" data-content="Get In Touch">
-        <span>Get In Touch</span>
+      <a href="contact.php" class="text-decoration-none link footer__mainLink anima maskIn in" data-content="Get In Touch">
+        <span>Contact</span>
       </a>
     </div>
 
