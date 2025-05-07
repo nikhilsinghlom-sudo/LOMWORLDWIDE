@@ -1,3 +1,29 @@
+const hoverContainer = document.getElementById("hoverContainer");
+const hoverImages = hoverContainer.querySelectorAll(".hover-image");
+const slider = document.querySelector(".slider");
+const allSlides = document.querySelectorAll(".slide");
+
+function showHoverImages(slideEl) {
+    const imageUrls = slideEl.dataset.images?.split(",") || [];
+
+    hoverImages.forEach((img, index) => {
+        img.src = imageUrls[index]?.trim() || "";
+    });
+
+    hoverContainer.classList.add("active");
+    slider.classList.add("hover-active");
+
+    allSlides.forEach(slide => slide.classList.remove("hovered"));
+    slideEl.classList.add("hovered");
+}
+
+function hideHoverImages() {
+    hoverContainer.classList.remove("active");
+    slider.classList.remove("hover-active");
+    allSlides.forEach(slide => slide.classList.remove("hovered"));
+}
+
+
 const container = document.querySelector('.workCards');
 
 function getCards() {
@@ -26,4 +52,50 @@ container.addEventListener('click', (e) => {
             card.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }, 100);
     }
+});
+
+const swiper = new Swiper('.mySwiper', {
+    // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        loop: true,
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+    },
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            centeredSlides: true,
+            autoplay: false,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            autoplay: false,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        }
+    },
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
 });

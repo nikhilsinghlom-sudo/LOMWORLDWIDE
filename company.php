@@ -171,13 +171,11 @@
                 </div>
             </section>
             <section class="ourTeam">
+                <!-- Leadership section -->
                 <h2 class="h0 ourTeam__heading scroll zero smd h-anim anima spanned text-center" data-spanner="w" data-anima-delay="10">
                     <p>
                         <span class="w" data-i="1">Our </span>
                         <span class="w text-yellow" data-i="2">Leadership</span>
-                    </p>
-                    <p>
-                        <span class="w" data-i="3">Team </span>
                     </p>
                 </h2>
                 <div class="row align-items-center">
@@ -185,22 +183,26 @@
                         <img src="staging/krittika.webp" alt="" width="90%" style="border-radius: 10px;">
                     </div>
                     <div class="col-lg-6 py-4">
-                        <p style="font-size: 20px;font-weight: 500;line-height: 30px;">Krittika tosses up a Filipino Spaghetti as easily as conjuring up a Digital Communication Strategy. A Management postgraduate from Chandigarh University and thereafter intense and immersive stints at the top rung of Advertising with the big boys like Ogilvy & Mather and J Walter Thompson prepared her to take on the world of marketing communication. But getting lost in a big pond was not her idea of a future. She decided to start on her own when she realized that she wanted to achieve much bigger things with her cache of rich experience. And in the process, drastically change the way the industry viewed the client-agency relationship. A big objective in professional life for one so young.</p>
+                        <p class="outTeamStory" style="font-size: 20px;font-weight: 500;line-height: 30px;">Krittika tosses up a Filipino Spaghetti as easily as conjuring up a Digital Communication Strategy. A Management postgraduate from Chandigarh University and thereafter intense and immersive stints at the top rung of Advertising with the big boys like Ogilvy & Mather and J Walter Thompson prepared her to take on the world of marketing communication. But getting lost in a big pond was not her idea of a future. She decided to start on her own when she realized that she wanted to achieve much bigger things with her cache of rich experience. And in the process, drastically change the way the industry viewed the client-agency relationship. A big objective in professional life for one so young.</p>
                     </div>
                 </div>
-
-                <p class="teamHeading text-center">OUR<span class="text-yellow"> TEAM</span></p>
+                <!-- OUR ADVISORS SECTION -->
+                <h2 class="h0 ourTeam__heading scroll zero smd h-anim anima spanned text-center" data-spanner="w" data-anima-delay="10">
+                    <p>
+                        <span class="w" data-i="1">Our </span>
+                        <span class="w text-yellow" data-i="2">Advisors</span>
+                    </p>
+                </h2>
                 <div class="ourTeam__team">
                     <div class="ourTeam__member scroll anima smd " data-anima-delay="2">
                         <picture>
                             <source srcset="staging/Abhimanyu_Singh.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=8144856f09395c27404cc8788ac17deb 1x, staging/Abhimanyu_Singh.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=6d6e692163c72aa433b30c391caea576 2x" media="(max-width: 800px)">
                             <source srcset="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb 1x, staging/Abhimanyu_Singh.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=ad0148d3fd166debccec9a6bf3925d94 2x" media="(min-width: 800px)">
-                            <img src="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb" class="media img ourTeam__photo" alt="JB">
+                            <img src="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb" class="media img ourTeam__photo" alt="Abhimanyu Singh">
                         </picture>
                         <p class="ourTeam__name"><span class="text-yellow">Abhimanyu</span> Singh</p>
                         <span class="ourTeam__position">Social Media Manager</span>
                     </div>
-
                     <div class="ourTeam__member scroll anima smd " data-anima-delay="3.5">
                         <picture>
                             <source srcset="staging/Shweta_Sharma.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=9920eb4c8af0adcfe124db2fae9af57a 1x, staging/Shweta_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=108cb6008352617d9370423a2bf6b544 2x" media="(max-width: 800px)">
@@ -211,7 +213,6 @@
                         <p class="ourTeam__name"><span class="text-yellow">Shweta</span> Sharma</p>
                         <span class="ourTeam__position">HR Manager </span>
                     </div>
-
                     <div class="ourTeam__member scroll anima smd " data-anima-delay="5">
                         <picture>
                             <source srcset="staging/D0034566.png?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=d824b2a3995e780c78efe3bbddefe216 1x, staging/D0034566.png?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=a3508d0234f6e8a0a12e5c15fc492c8c 2x" media="(max-width: 800px)">
@@ -222,101 +223,170 @@
                         <p class="ourTeam__name"><span class="text-yellow">Deepti</span> Duggal</p>
                         <span class="ourTeam__position">Creative Head</span>
                     </div>
+                </div>
+                <!-- OUR TEAM SECTION -->
+                <p class="teamHeading text-center">OUR<span class="text-yellow"> TEAM</span></p>
+                <div class="ourTeam__team">
+                    <div class="ourTeam__member scroll anima smd " data-anima-delay="2">
+                        <picture>
+                            <source srcset="staging/Abhimanyu_Singh.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=8144856f09395c27404cc8788ac17deb 1x, staging/Abhimanyu_Singh.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=6d6e692163c72aa433b30c391caea576 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb 1x, staging/Abhimanyu_Singh.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=ad0148d3fd166debccec9a6bf3925d94 2x" media="(min-width: 800px)">
+                            <img src="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb" class="media img ourTeam__photo" alt="Abhimanyu Singh">
+                        </picture>
+                        <p class="ourTeam__name"><span class="text-yellow">Abhimanyu</span> Singh</p>
+                        <span class="ourTeam__position">Social Media Manager</span>
+                    </div>
 
-                    <div class="ourTeam__member scroll anima smd  fade " data-anima-delay="2">
+                    <div class="ourTeam__member scroll anima smd " data-anima-delay="3.5">
+                        <picture>
+                            <source srcset="staging/kunaal_Bhargav.jpg?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=9920eb4c8af0adcfe124db2fae9af57a 1x, staging/Shweta_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=108cb6008352617d9370423a2bf6b544 2x" media="(max-width: 800px)">
+                            <source srcset="staging/kunaal_Bhargav.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099 1x, staging/Shweta_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=1d99a01bc15785877f9a4434c7b4ad4f 2x" media="(min-width: 800px)">
+                            <img src="staging/kunaal_Bhargav.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099" class="media img ourTeam__photo" alt="Kunaal Bhargav">
+                        </picture>
+
+                        <p class="ourTeam__name"><span class="text-yellow">Kunaal</span> Bhargav</p>
+                        <span class="ourTeam__position">HR Manager </span>
+                    </div>
+
+                    <div class="ourTeam__member scroll anima smd " data-anima-delay="5">
+                        <picture>
+                            <source srcset="staging/D0034566.png?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=d824b2a3995e780c78efe3bbddefe216 1x, staging/D0034566.png?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=a3508d0234f6e8a0a12e5c15fc492c8c 2x" media="(max-width: 800px)">
+                            <source srcset="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433 1x, staging/D0034566.png?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=9af370f99d8d9c542d89abd5d62bfaac 2x" media="(min-width: 800px)">
+                            <img src="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433" class="media img ourTeam__photo" alt="Deepti Duggal">
+                        </picture>
+
+                        <p class="ourTeam__name"><span class="text-yellow">Deepti</span> Duggal</p>
+                        <span class="ourTeam__position">Creative Head</span>
+                    </div>
+
+                    <div class="ourTeam__member scroll anima smd fade " data-anima-delay="2">
                         <picture>
                             <source srcset="staging/Deep_Gandhi.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=f32176c1e6990fabacf3fb3de399bc15 1x, staging/Deep_Gandhi.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=ff3aad16faf081545d43efd4dca278cb 2x" media="(max-width: 800px)">
                             <source srcset="staging/Deep_Gandhi.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=f8738833ce9969bf47fee664c4a384ae 1x, staging/Deep_Gandhi.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=9172f44114dc61f012518f2817bf6a60 2x" media="(min-width: 800px)">
-                            <img src="staging/Deep_Gandhi.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=f8738833ce9969bf47fee664c4a384ae" class="media img ourTeam__photo" alt="Deanna">
+                            <img src="staging/Deep_Gandhi.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=f8738833ce9969bf47fee664c4a384ae" class="media img ourTeam__photo" alt="Deep Gandhi">
                         </picture>
 
                         <p class="ourTeam__name"><span class="text-yellow">Deep</span> Gandhi</p>
                         <span class="ourTeam__position">Client Servicing Manager </span>
                     </div>
 
-                    <div class="ourTeam__member scroll anima smd  fade " data-anima-delay="3.5">
+                    <div class="ourTeam__member scroll anima smd fade " data-anima-delay="3.5">
                         <picture>
                             <picture>
                                 <source srcset="staging/Rainy_Vermal.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=ee840d4d617235d68d07a85d45cb3cfd 1x, staging/Rainy_Vermal.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=64d95a6f2f0208c127713ca874148fa7 2x" media="(max-width: 800px)">
                                 <source srcset="staging/Rainy_Vermal.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57 1x, staging/Rainy_Vermal.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=6f9907ccade954b01c40bd5f9cc86927 2x" media="(min-width: 800px)">
-                                <img src="staging/Rainy_Vermal.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57" class="media img ourTeam__photo" alt="David">
+                                <img src="staging/Rainy_Vermal.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57" class="media img ourTeam__photo" alt="Rainy Verma">
                             </picture>
 
                             <p class="ourTeam__name"><span class="text-yellow">Rainy</span> Verma</p>
                             <span class="ourTeam__position">Social Media Manager</span>
                     </div>
 
-                    <div class="ourTeam__member scroll anima smd  fade " data-anima-delay="5">
+                    <div class="ourTeam__member scroll anima smd fade " data-anima-delay="5">
                         <picture>
                             <source srcset="staging/Jatin.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=ee840d4d617235d68d07a85d45cb3cfd 1x, staging/Jatin.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=64d95a6f2f0208c127713ca874148fa7 2x" media="(max-width: 800px)">
                             <source srcset="staging/Jatin.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57 1x, staging/Jatin.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=6f9907ccade954b01c40bd5f9cc86927 2x" media="(min-width: 800px)">
-                            <img src="staging/Jatin.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57" class="media img ourTeam__photo" alt="David">
+                            <img src="staging/Jatin.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57" class="media img ourTeam__photo" alt="Jatin Bhatia">
                         </picture>
                         <p class="ourTeam__name"><span class="text-yellow">Jatin</span> Bhatia</p>
                         <span class="ourTeam__position">Sr. Motion Graphic Designer </span>
                     </div>
 
-                    <div class="ourTeam__member scroll anima smd  fade " data-anima-delay="2">
+                    <div class="ourTeam__member scroll anima smd fade " data-anima-delay="2">
                         <picture>
                             <source srcset="staging/Sneha_Sharma.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f357d6598a50b1a51d2667697c20da6 1x, staging/Sneha_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=631bb4b94da16cfa6aa38c69e45b7cba 2x" media="(max-width: 800px)">
                             <source srcset="staging/Sneha_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a 1x, staging/Sneha_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=68105c3f9403d2a649a80941f07b16e0 2x" media="(min-width: 800px)">
-                            <img src="staging/Sneha_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a" class="media img ourTeam__photo" alt="Melody">
+                            <img src="staging/Sneha_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a" class="media img ourTeam__photo" alt="Simran Goswami">
                         </picture>
-                        <p class="ourTeam__name"><span class="text-yellow">Sneha</span> Sharma</p>
+                        <p class="ourTeam__name"><span class="text-yellow">Simran</span> Goswami</p>
                         <span class="ourTeam__position">Graphics & UI/UX Designer</span>
                     </div>
 
-                    <div class="ourTeam__member scroll anima smd  fade " data-anima-delay="3.5">
+                    <div class="ourTeam__member scroll anima smd fade " data-anima-delay="3.5">
                         <picture>
-                            <source srcset="staging/Mridul_Sharma.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919785&amp;s=e87f2b04ab9fe550b201267cd8af7f74 1x, staging/Mridul_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919785&amp;s=e4a783c54b6548dbce90ed93c7f62ef1 2x" media="(max-width: 800px)">
-                            <source srcset="staging/Mridul_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919785&amp;s=bcb1e75e99ea1cff84eff7541298e344 1x, staging/Mridul_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919785&amp;s=e834d17a23b9d08778dbe8c1336710fe 2x" media="(min-width: 800px)">
-                            <img src="staging/Mridul_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919785&amp;s=bcb1e75e99ea1cff84eff7541298e344" class="media img ourTeam__photo" alt="Erin">
+                            <source srcset="staging/Vishank_Chaudhary.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=bd704f6a5dfe6dff0abfa99803ae5972 1x, staging/Vishank_Chaudhary.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=8b2b9b718f6c0e606b7f18e8a6fbd2f9 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Vishank_Chaudhary.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2 1x, staging/Vishank_Chaudhary?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=405e996490ad6308ee568f427af70e96 2x" media="(min-width: 800px)">
+                            <img src="staging/Vishank_Chaudhary.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2" class="media img ourTeam__photo" alt="Vishank Chaudhary">
                         </picture>
-                        <p class="ourTeam__name"><span class="text-yellow">Mridul</span> Sharma</p>
-                        <span class="ourTeam__position">3D & CGI Artist</span>
+                        <p class="ourTeam__name"><span class="text-yellow">Vishank</span> Chaudhary</p>
+                        <span class="ourTeam__position">Sr. Motion Graphic Designer</span>
                     </div>
 
                     <div class="ourTeam__member scroll anima smd  fade " data-anima-delay="5">
                         <picture>
                             <source srcset="staging/Ovesh_Ahamad.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=85d2621bd4a07413448af5d09a2d49c9 1x, staging/Ovesh_Ahamad.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=487e43ef19401f0782395e0bcc4cfe40 2x" media="(max-width: 800px)">
                             <source srcset="staging/Ovesh_Ahamad.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=3bfbd840a607c6466e831fbc47bd36f0 1x, staging/Ovesh_Ahamad.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=4ba4a39d29f7355b0091120f0feb3db1 2x" media="(min-width: 800px)">
-                            <img src="staging/Ovesh_Ahamad.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=3bfbd840a607c6466e831fbc47bd36f0" class="media img ourTeam__photo" alt="Christa">
+                            <img src="staging/Ovesh_Ahamad.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=3bfbd840a607c6466e831fbc47bd36f0" class="media img ourTeam__photo" alt="Ovesh Ahamad">
                         </picture>
                         <p class="ourTeam__name"><span class="text-yellow">Ovesh</span> Ahamad</p>
                         <span class="ourTeam__position">Jr. Motion Designer</span>
                     </div>
-
-                    <div class="ourTeam__member scroll anima smd  fade " data-anima-delay="2">
-                        <picture>
-                            <source srcset="staging/Vishank_Chaudhary.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=bd704f6a5dfe6dff0abfa99803ae5972 1x, staging/Vishank_Chaudhary.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=8b2b9b718f6c0e606b7f18e8a6fbd2f9 2x" media="(max-width: 800px)">
-                            <source srcset="staging/Vishank_Chaudhary.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2 1x, staging/Vishank_Chaudhary?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=405e996490ad6308ee568f427af70e96 2x" media="(min-width: 800px)">
-                            <img src="staging/Vishank_Chaudhary.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2" class="media img ourTeam__photo" alt="Dana">
-                        </picture>
-                        <p class="ourTeam__name"><span class="text-yellow">Vishank</span> Chaudhary</p>
-                        <span class="ourTeam__position">Sr. Motion Graphic Designer</span>
-                    </div>
-                    <div class="ourTeam__member scroll anima smd fade" data-anima-delay="3.5">
-                        <picture>
-                            <source srcset="staging/Abhimanyu_Singh.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=8144856f09395c27404cc8788ac17deb 1x, staging/Abhimanyu_Singh.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=6d6e692163c72aa433b30c391caea576 2x" media="(max-width: 800px)">
-                            <source srcset="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb 1x, staging/Abhimanyu_Singh.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=ad0148d3fd166debccec9a6bf3925d94 2x" media="(min-width: 800px)">
-                            <img src="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb" class="media img ourTeam__photo" alt="JB">
-                        </picture>
-                        <p class="ourTeam__name"><span class="text-yellow">Abhimanyu</span> Singh</p>
-                        <span class="ourTeam__position">Social Media Manager</span>
-                    </div>
-
-                    <div class="ourTeam__member scroll anima smd fade" data-anima-delay="5">
-                        <picture>
-                            <source srcset="staging/Shweta_Sharma.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=9920eb4c8af0adcfe124db2fae9af57a 1x, staging/Shweta_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=108cb6008352617d9370423a2bf6b544 2x" media="(max-width: 800px)">
-                            <source srcset="staging/Shweta_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099 1x, staging/Shweta_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=1d99a01bc15785877f9a4434c7b4ad4f 2x" media="(min-width: 800px)">
-                            <img src="staging/Shweta_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099" class="media img ourTeam__photo" alt="Katie">
-                        </picture>
-
-                        <p class="ourTeam__name"><span class="text-yellow">Shweta</span> Sharma</p>
-                        <span class="ourTeam__position">HR Manager </span>
-                    </div>
                 </div>
             </section>
+            <div class="workGallery">
+                <p class="funAtWorkHeading text-center">Fun At <span class="text-yellow">Work</span></p>
+                <div>
+                    <div class="slider">
+                        <div class="slide-track">
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1745172366995-a55968e94797?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743482858217-5aef42cfc636?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743653537429-a94889a6fd47?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1734917141553-274732d788cb?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://plus.unsplash.com/premium_photo-1739779212365-408eb31998ee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1744024450738-b040cffc7ff9?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743446598329-5d933172caff?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1742845918430-c6093f93f740?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1741807117240-0aee0cd41d25?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <!-- SAME SLIDES DOUBLED -->
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1745172366995-a55968e94797?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743482858217-5aef42cfc636?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743653537429-a94889a6fd47?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1734917141553-274732d788cb?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://plus.unsplash.com/premium_photo-1739779212365-408eb31998ee?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1744024450738-b040cffc7ff9?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1743446598329-5d933172caff?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1742845918430-c6093f93f740?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="https://images.unsplash.com/photo-1741807117240-0aee0cd41d25?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <section class="officeList">
                 <h2 class="subheading anima fade scroll text-yellow">Our office</h2>
                 <div class="officeList__list">

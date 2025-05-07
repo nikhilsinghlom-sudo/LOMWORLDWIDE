@@ -19,7 +19,10 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <!-- Font Awesome Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- Swiper Js -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script src="script.js"></script>
 <script src="scriptlom.js"></script>
@@ -44,6 +47,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             <a href="contact.php" class="link nav__linkz flipLink ps-3 <?= ($currentPage == 'contact.php') ? "active" : "" ?>" data-content="Contact">
                 <span>Contact</span>
             </a>
+            <a href="credentials.php" class="link nav__linkz flipLink ps-3 <?= ($currentPage == 'credentials.php') ? "active" : "" ?>" data-content="Credentials">
+                <span>Credentials</span>
+            </a>
         </div>
         <div class="nav__toggle" id="nav-toggle">
             <span><span><i class="fa-solid fa-bars"></i></span></span>
@@ -64,6 +70,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
                 </a>
                 <a href="contact.php" class="link nav__menuLink <?= ($currentPage == 'contact.php') ? "active" : "" ?>" data-content="Get In Touch">
                     <span>Contact</span>
+                </a>
+                <a href="creds.php" class="link nav__menuLink <?= ($currentPage == 'contact.php') ? "active" : "" ?>" data-content="Get In Touch">
+                    <span>Credentials</span>
                 </a>
             </div>
         </div>
