@@ -1,19 +1,41 @@
-
+<!-- 
 <?php
-$finame = $_POST['fromName'];
-$laname = $_POST['messagecompany'];
-$faname = $_POST['fromEmail'];
-$count = $_POST['messagemessage'];
-$to = 'kcbhumika6@gmail.com';
-$subject = 'LOMDIGITAL  INQUIRY';
-$msg = "$finame.$faname.$faname.$count";
-mail($to, $subject, $msg);
+// Include PHPMailer classes
+// require 'PHPMailer/Exception.php';
+// require 'PHPMailer/PHPMailer.php';
+// require 'PHPMailer/SMTP.php';
 
-echo "<h1 style='text-align:center;font-size:54;'>Thank You The form Was Submitted Successfully</h1>";
-?>
+// use PHPMailer\PHPMailer\PHPMailer;
+// use PHPMailer\PHPMailer\Exception;
 
+// if ($_SERVER["REQUEST_METHOD"] == "POST") {
+//     $name    = htmlspecialchars($_POST['name']);
+//     $email   = htmlspecialchars($_POST['email']);
+//     $company = htmlspecialchars($_POST['company']);
+//     $message = htmlspecialchars($_POST['message']);
 
+//     $mail = new PHPMailer(true);
 
-       
-       
-    
+//     try {
+//         // SMTP setup
+//         $mail->isSMTP();
+//         $mail->Host       = 'smtp.gmail.com';
+//         $mail->SMTPAuth   = true;
+//         $mail->Username   = 'kcika06@gmail.com'; // your Gmail address
+//         $mail->Password   = 'hfdi obhf gthq vwcp'; // the app password
+//         $mail->SMTPSecure = 'tls';
+//         $mail->Port       = 587;
+
+//         // Email settings
+//         $mail->setFrom('kcika06@gmail.com', 'Contact Form');
+//         $mail->addAddress('kcika06@gmail.com'); // can change to company email later
+//         $mail->Subject = 'New Contact Form Submission';
+//         $mail->Body    = "Name: $name\nEmail: $email\nCompany: $company\n\nMessage:\n$message";
+
+//         $mail->send();
+//         echo "✅ Message sent successfully!";
+//     } catch (Exception $e) {
+//         echo "❌ Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+//     }
+// }
+?> -->

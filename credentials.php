@@ -1,3 +1,51 @@
+<?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'PHPMailer/Exception.php';
+require 'PHPMailer/PHPMailer.php';
+require 'PHPMailer/SMTP.php';
+
+$success = false;
+$error = '';
+$downloadLink = 'https://docs.google.com/presentation/d/1FVjfYqzeIRj0_vbIRwnjgqH3NadHZ93t/export/pdf'; // Replace with your link
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $name = htmlspecialchars($_POST['credName']);
+    $email = filter_var($_POST['credsEmail'], FILTER_VALIDATE_EMAIL);
+    $company = htmlspecialchars($_POST['credsCompany']);
+    $message = htmlspecialchars($_POST['credsMessage']);
+
+    if (!$email) {
+        $error = "Invalid email address.";
+    } else {
+        $mail = new PHPMailer(true);
+        try {
+            // SMTP Config
+            $mail->isSMTP();
+            $mail->Host = 'smtp.gmail.com';
+            $mail->SMTPAuth = true;
+            $mail->Username = 'kcika06@gmail.com'; // Your Gmail
+            $mail->Password = 'hfdi obhf gthq vwcp';   // App Password
+            $mail->SMTPSecure = 'tls';
+            $mail->Port = 587;
+
+            // Email content
+            $mail->setFrom('kcika06@gmail.com', 'Website Notification');
+            $mail->addAddress('kcika06@gmail.com');
+            $mail->Subject = 'New Google Slides Download';
+            $mail->Body = "Name: $name\nEmail: $email\nCompany: $company\nMessage: $message";
+
+            $mail->send();
+            $success = true;
+        } catch (Exception $e) {
+            $error = "Email failed to send: {$mail->ErrorInfo}";
+        }
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +59,14 @@
 <body cz-shortcut-listen="true">
     <div id="container">
         <main id="main" class="">
+            <?php if (!empty($error)): ?>
+                <p style="color: red;"><?php echo $error; ?></p>
+            <?php elseif ($success): ?>
+                <p style="color: green; text-align: center; font-size: 32px; position: absolute; top: 8rem; left: 50%; transform: translateX(-50%);">✅ Thank you! Your download has started.</p>
+                <script>
+                    window.open("<?php echo $downloadLink; ?>", "_blank");
+                </script>
+            <?php endif; ?>
             <section class="shortHeader">
                 <div class="shortHeader__inner">
                     <h2 class="h0 credentials__heading zero h-anim anima spanned in" data-spanner="w">
@@ -27,25 +83,25 @@
 
             <section class="contactForm">
                 <div class="contactForm__inner anima fade in" data-anima-delay="5">
-                    <form method="post" action="action.php" accept-charset="UTF-8">
+                    <form method="post" accept-charset="UTF-8">
 
                         <div class="textField">
                             <label class="textField__label" for="from-name">Name<span>*</span></label>
-                            <input tabindex="2" class="textField__input getDirty" id="from-name" type="text" name="fromName" value="" placeholder="" required="">
+                            <input tabindex="2" class="textField__input getDirty" id="from-name" type="text" name="credName" value="" placeholder="" required="">
                         </div>
 
                         <div class="textField">
                             <label class="textField__label" for="company">Company<span>*</span></label>
-                            <input tabindex="2" class="textField__input getDirty" id="company" type="text" name="messagecompany" value="" placeholder="">
+                            <input tabindex="2" class="textField__input getDirty" id="company" type="text" name="credsCompany" value="" placeholder="" required="">
                         </div>
-                        <div class="textField">
+                        <div class=" textField">
                             <label class="textField__label" for="from-email">Email<span>*</span></label>
-                            <input tabindex="2" class="textField__input getDirty" id="from-email" type="email" name="fromEmail" value="" placeholder="" required="">
+                            <input tabindex="2" class="textField__input getDirty" id="from-email" type="email" name="credsEmail" value="" placeholder="" required="">
                         </div>
 
                         <div class="textField dirty focus">
                             <label class="textField__label" for="message">Message<span>*</span></label>
-                            <textarea tabindex="2" class="textField__input textField__textarea getDirty" rows="5" id="message" name="messagemessage" placeholder="" required=""></textarea>
+                            <textarea tabindex="2" class="textField__input textField__textarea getDirty" rows="5" id="message" name="credsMessage" placeholder="" required=""></textarea>
                         </div>
                         <span class="ctaButton ctaButton--dark submitButton">
                             <input class="ctaButton__label" type="submit" name="submit" value="Download Credentials">

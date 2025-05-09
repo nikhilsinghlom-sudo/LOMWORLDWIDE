@@ -80,7 +80,7 @@ const swiper = new Swiper('.mySwiper', {
         },
         768: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 15,
             autoplay: false,
         },
         1024: {

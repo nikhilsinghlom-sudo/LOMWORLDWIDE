@@ -289,6 +289,11 @@ html {
   /* Firefox */
 }
 
+.fs-28 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
 .body {
   font-size: 2rem;
   font-weight: 400;
@@ -1219,11 +1224,12 @@ html.stop-animation .transition-fade {
 }
 
 .nav__bar {
+  /* background-color: #000; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 8.8rem;
+  height: 7rem;
   padding: 0 5rem;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -1235,7 +1241,7 @@ html.stop-animation .transition-fade {
 }
 
 .nav__logo {
-  height: 6.2rem;
+  height: 5rem;
   width: auto;
 }
 
@@ -1306,18 +1312,22 @@ html.stop-animation .transition-fade {
   color: #999999;
 }
 
+.logoFooter img {
+  height: 6rem;
+}
+
 .lh {
   line-height: 1.4;
 }
 
 .companyInfo {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .footerHeading {
   font-size: 24px;
   color: #fff;
-  margin: 3rem 0 3.5rem 0;
+  margin: 1rem 0 3.5rem 0;
 }
 
 .textFooter {
@@ -1997,7 +2007,7 @@ html.stop-animation .transition-fade {
 }
 
 .mediaSentence {
-  padding: 1rem 1.6rem 0rem;
+  padding: 1rem 1rem 0rem;
 }
 
 .mediaSentence__main {
@@ -2104,7 +2114,7 @@ html.stop-animation .transition-fade {
 }
 
 .logoBanner {
-  padding-top: 7rem;
+  padding-top: 10rem;
   overflow: hidden;
 }
 
@@ -2669,7 +2679,7 @@ html.stop-animation .transition-fade {
 }
 
 .callToAction {
-  padding: 16rem 0 3rem 0;
+  padding: 16rem 0 0rem 0;
   text-align: center;
 }
 
@@ -2725,10 +2735,6 @@ html.stop-animation .transition-fade {
   width: 100%;
   height: 100%;
   z-index: 2;
-}
-
-.callToAction {
-  padding: 15rem 0 15rem;
 }
 
 .policyPage {
@@ -2787,7 +2793,7 @@ html.stop-animation .transition-fade {
 }
 
 .partnersSection {
-  padding: 6rem 0;
+  padding: 10rem 0;
 }
 
 .partnersText {
@@ -2832,11 +2838,12 @@ html.stop-animation .transition-fade {
   padding: 0 1.6rem;
 }
 
+/* 
 .workInfo .heading {
   font-size: 20px;
   color: #999999;
   font-weight: 600;
-}
+} */
 
 .workInfo .subHeading {
   font-size: 65px;
@@ -2853,7 +2860,7 @@ html.stop-animation .transition-fade {
   max-width: 1320px;
   margin: auto;
   top: 200px;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .workCards {
@@ -3130,7 +3137,159 @@ html.stop-animation .transition-fade {
   font-size: 24px;
 }
 
+.awardSection {
+  background-color: #1b1818;
+  padding: 5rem 0;
+}
 
+.awardsText {
+  max-width: 900px;
+  width: 100%;
+  line-height: 1.4;
+  margin: auto;
+}
+
+.awards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  margin: 6rem 0;
+  gap: 20px;
+}
+
+.whatsapp {
+  z-index: 999;
+  transition: all 200ms;
+}
+
+.whatsappIcon {
+  display: block;
+  flex-shrink: 0;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  order: 2;
+  padding: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: rgba(136, 136, 136, 0.4) 0px 1px 7px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 200;
+  text-decoration: none !important;
+  background-color: rgb(77, 194, 71) !important;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: all 200ms;
+}
+
+.mssg {
+  position: fixed;
+  bottom: 35px;
+  right: 90px;
+  font-size: 14px;
+  padding: 12px 14px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+  transition: all 200ms;
+  z-index: 999;
+}
+
+.tri {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  position: absolute;
+  right: -5px;
+  transform: rotate(45deg);
+}
+
+.whatsapp:hover .mssg {
+  visibility: visible;
+  transition: all 200ms;
+}
+
+/* Blogs Page */
+.blogSection {
+  padding: 0 5rem;
+}
+
+.blogHeader {
+  padding: 20rem 0 7rem;
+}
+
+.blogHeading {
+  font-size: 8rem;
+  font-weight: 600;
+}
+
+.blogSubHeading {
+  font-size: 24px;
+}
+
+.blogGrids {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.blog {
+  height: 600px;
+  background-color: #202020;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blogTitle {
+  font-size: 28px;
+  cursor: pointer;
+  transition: color 300ms;
+}
+
+.blogTitle:hover {
+  color: #FFD600;
+  transition: color 300ms;
+}
+
+.form-message {
+  text-align: center;
+  font-size: 32px;
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-message.success {
+  text-align: center;
+  font-size: 32px;
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-message.error {
+  text-align: center;
+  font-size: 32px;
+  position: absolute;
+  top: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-message p {
+  margin: 0;
+}
 
 /* NEW MEDIA QUERIES */
 /* MEDIA QUERIES */
@@ -3199,7 +3358,7 @@ html.stop-animation .transition-fade {
   }
 
   .nav__logo {
-    height: 4.5rem;
+    height: 3.5rem;
     -webkit-transition: -webkit-filter 50ms 225ms;
     transition: -webkit-filter 50ms 225ms;
     -o-transition: filter 50ms 225ms;
@@ -3540,7 +3699,7 @@ html.stop-animation .transition-fade {
   }
 
   .contactForm {
-    padding: 8rem 1.6rem;
+    padding: 8rem 1rem;
   }
 
   .contactForm__inner {
@@ -3558,7 +3717,7 @@ html.stop-animation .transition-fade {
   /* FOOTER SECTION */
   .footer {
     position: relative;
-    padding: 11.3rem 1.6rem 12rem 1.6rem;
+    padding: 11.3rem 1rem 12rem;
     min-height: 49rem;
     margin-top: 0;
     overflow: hidden;
@@ -3574,7 +3733,7 @@ html.stop-animation .transition-fade {
     height: 100%;
   }
 
-  .footer__mainLink {
+  /* .footer__mainLink {
     font-size: 2.7rem;
     line-height: 1.25;
     display: block;
@@ -3586,7 +3745,7 @@ html.stop-animation .transition-fade {
     line-height: 1.25;
     font-size: 1.5rem;
     margin: 0.5rem 0;
-  }
+  } */
 
   .footer__bottom {
     position: absolute;
@@ -3778,7 +3937,8 @@ html.stop-animation .transition-fade {
   }
 
   .shortHeader__bottom {
-    width: 26rem;
+    width: 100%;
+    padding: 0 1rem;
     margin: auto;
     text-align: center;
   }
@@ -3832,6 +3992,11 @@ html.stop-animation .transition-fade {
   .mediaHeader .body {
     text-align: center;
     font-size: 2rem;
+  }
+
+  .awards {
+    grid-template-columns: 100%;
+    gap: 30px;
   }
 
   /* ABOUT SECTION */
@@ -3983,7 +4148,7 @@ html.stop-animation .transition-fade {
 
   /* SERVICES PAGE */
   .servicesList {
-    padding: 12rem 1.6rem 6rem 1.6rem;
+    padding: 12rem 1rem 6rem 1rem;
   }
 
   .servicesList__list {
@@ -4207,7 +4372,7 @@ html.stop-animation .transition-fade {
   }
 
   .statsSection {
-    padding: 5rem 1.5rem 5rem;
+    padding: 5rem 1rem 5rem;
   }
 
   .statsSection .subheading {
@@ -4281,7 +4446,7 @@ html.stop-animation .transition-fade {
   }
 
   .ourTeam {
-    padding: 5rem 1.5rem 5rem;
+    padding: 5rem 1rem 5rem;
   }
 
   .ourTeam__heading {
@@ -4377,6 +4542,7 @@ html.stop-animation .transition-fade {
     width: 100%;
   }
 
+  /* 
   .workSlider {
     width: 100vw;
     overflow: hidden;
@@ -4420,7 +4586,7 @@ html.stop-animation .transition-fade {
     -o-transition: opacity 300ms linear !important;
     transition: opacity 300ms linear !important;
   }
-
+ 
   .workSlider__slider {
     height: 60rem;
     position: relative;
@@ -4459,8 +4625,7 @@ html.stop-animation .transition-fade {
 
   .workSlider__heading p:nth-child(4) {
     margin-left: 6rem;
-  }
-
+  } 
   .workSlider--header .workSlider__stick {
     padding-top: 24rem;
   }
@@ -4522,15 +4687,15 @@ html.stop-animation .transition-fade {
     -ms-transform: translateX(-8rem);
     transform: translateX(-8rem);
   }
-
-  .mediaSentence+.workSlider {
+ .mediaSentence+.workSlider {
     margin-top: -8rem;
   }
 
   .workSlider+.campaignList {
     margin-top: -45rem;
     background: transparent;
-  }
+  } 
+*/
 
   /* INFINITE LOGO SECTION */
   .clientLogos {
@@ -4678,7 +4843,7 @@ html.stop-animation .transition-fade {
 
   /* OFFICE LIST SECTION */
   .officeList {
-    padding: 5rem 1.6rem;
+    padding: 5rem 1rem;
   }
 
   .officeList__office {
@@ -4866,7 +5031,7 @@ html.stop-animation .transition-fade {
   }
 
   .testimonials {
-    padding: 4rem 2rem;
+    padding: 4rem 1rem;
   }
 
   .slider {
@@ -4914,21 +5079,31 @@ html.stop-animation .transition-fade {
   .companyInfo {
     padding: 0;
   }
+
+  .whatsappIcon {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .mssg {
+    display: none;
+  }
+
+  .credentials__heading {
+    font-size: 5rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
-  .LomLogo img {
-    max-width: 700px;
-  }
-
   .nav__bar {
-    height: 10rem;
-    padding: 0 2rem;
+    height: 12rem;
+    padding: 0 3rem;
     background-color: #000;
+    align-items: center;
   }
 
   .nav__logo {
-    height: 10rem;
+    height: 8rem;
   }
 
   .nav__links {
@@ -4936,72 +5111,38 @@ html.stop-animation .transition-fade {
     color: #fff !important;
   }
 
+  .LomLogo img {
+    max-width: 600px;
+  }
+
+  .story {
+    padding: 0 3rem;
+  }
+
+  .awardsText {
+    font-size: 16px
+  }
+
+  .awardsInfo {
+    font-size: 16px;
+  }
+
+  .partnersText {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  /* our work section */
   .galleryHeading {
     margin-top: 45rem;
   }
 
-  .ourTeam {
-    padding: 10rem 10rem 5rem 10rem;
-  }
-
-  .ourTeam__member {
-    width: 39rem;
-    margin-bottom: 7.5rem;
-  }
-
-  .servicesList__service {
-    padding: 3.7rem 2rem 4.2rem 5rem;
-    position: relative;
-  }
-
-  .servicesList__title {
-    font-size: 3rem;
-  }
-
-  .servicesList .body {
-    font-size: 2.5rem;
-    font-weight: 300;
-  }
-
-  .icons a {
-    width: 35px;
-    height: 35px;
-    margin: 2px 0;
-  }
-
-  .icons i {
-    font-size: 24px;
-  }
-
-  .shortHeader__bottom {
-    width: 80rem;
-    margin: auto;
-    text-align: center;
-  }
-
-  .shortHeader__bottom .body,
-  .callToAction__inner .body {
-    font-size: 3rem;
-  }
-
-  .outTeamStory {
-    text-align: center;
-  }
-
-  .ourTeam__position {
-    font-size: 2.5rem;
-  }
-
   .workSection {
-    padding: 0 10rem;
-  }
-
-  .story {
-    padding: 0 10rem;
+    padding: 0 3rem;
   }
 
   .testimonials {
-    padding: 4rem 2rem;
+    padding: 4rem 3rem;
   }
 
   .comment {
@@ -5025,9 +5166,93 @@ html.stop-animation .transition-fade {
     max-width: 50%;
   }
 
+  /* comapny page */
+  .ourTeam {
+    padding: 10rem 3rem 5rem 3rem;
+  }
+
+  .ourTeam__member {
+    width: 43.5rem;
+    margin-bottom: 7.5rem;
+  }
+
+  .statsSection {
+    padding: 5rem 3rem 5rem 16rem;
+  }
+
+  .outTeamStory {
+    text-align: center;
+  }
+
+  .ourTeam__position {
+    font-size: 2.5rem;
+  }
+
+  .hover-images-container {
+    width: 90% !important;
+  }
+
+  .testiBox {
+    padding: 20px;
+  }
+
+  /* services page */
+  .servicesList {
+    padding: 12rem 3rem 12rem 3rem;
+  }
+
+  .servicesList__service {
+    padding: 3.7rem 3rem 4.2rem 5rem;
+    position: relative;
+  }
+
+  .servicesList__service {
+    min-width: 65rem;
+    max-width: 65rem;
+  }
+
+  .servicesList__title {
+    font-size: 3rem;
+  }
+
+  .servicesList .body {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+
+  .icons a {
+    width: 35px;
+    height: 35px;
+    margin: 2px 0;
+  }
+
+  .icons i {
+    font-size: 24px;
+  }
+
+  /* contact page */
+  .shortHeader {
+    padding: 20rem 0 10rem;
+  }
+
+  .shortHeader__bottom {
+    width: 80rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  .shortHeader__bottom .body,
+  .callToAction__inner .body {
+    font-size: 3rem;
+  }
+
   /* Footer Section */
+  .logoFooter img {
+    height: 10rem;
+  }
+
   .footer {
-    padding: 0rem 4rem 15rem 4rem;
+    padding: 0rem 3rem 15rem 3rem;
   }
 
   .footerText {
@@ -5131,26 +5356,6 @@ html.stop-animation .transition-fade {
 
   .officeList__list:hover .officeList__time img {
     opacity: 1;
-  }
-}
-
-@media screen and (min-aspect-ratio: 1248/815) {
-  .workSlider--header .workSlider__top {
-    top: calc(100vh - 8rem);
-  }
-}
-
-@media screen and (orientation: portrait) and (max-width: 800px) and (orientation: portrait) and (max-width: 800px),
-screen and (orientation: portrait) and (max-width: 800px) and (orientation: landscape) and (max-width: 1200px) and (max-height: 600px),
-screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600px) and (orientation: portrait) and (max-width: 800px),
-screen and (orientation: landscape) and (max-width: 1200px) and (max-height: 600px) and (orientation: landscape) and (max-width: 1200px) and (max-height: 600px) {
-  .workSlider+.campaignList {
-    padding-top: 0;
-    margin-top: -13rem;
-  }
-
-  .workSlider+.campaignList .campaignList__count {
-    top: 0.8rem;
   }
 }
 

@@ -590,23 +590,23 @@ include("header.php");
                             <div class="swiper-slide testiBox scroll anima smd fade" data-anima-delay="2">
                                 <p class="quote text-center"><i class="fa-solid fa-quote-left text-yellow"></i></p>
                                 <div class="testiContent text-center">
-                                    <p class="comment pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quo est aperiam quam Lorem ipsum dolor sit amet.</p>
+                                    <p class="comment pt-4">“It is reassuring to work with people who treat your properties as your own and think proactively </p>
                                     <div class="imgCont">
-                                        <img src="staging/artistic-frames-balFAEulzs8-unsplash-01.webp" alt="">
+                                        <img src="staging/Sumeetsingh.jpeg" alt="Summet Singh">
                                     </div>
-                                    <p class="name">Debra Gibson</p>
-                                    <p class="position pt-2">Digital Marketer</p>
+                                    <p class="name">Sumeet singh</p>
+                                    <p class="position pt-2">CMO, Infoedge</p>
                                 </div>
                             </div>
                             <div class="swiper-slide testiBox scroll anima smd fade" data-anima-delay="3.5">
                                 <p class="quote text-center"><i class="fa-solid fa-quote-left text-yellow"></i></p>
                                 <div class="testiContent text-center">
-                                    <p class="comment pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quo est aperiam quam Lorem ipsum dolor sit amet.</p>
+                                    <p class="comment pt-4">“If I have a storey to tell, they are the best storytellers. They make your storey heard and understood.”</p>
                                     <div class="imgCont">
-                                        <img src="staging/artistic-frames-balFAEulzs8-unsplash-02.webp" alt="">
+                                        <img src="staging/staceyRickson.png" alt="">
                                     </div>
-                                    <p class="name">Sarah Johnson</p>
-                                    <p class="position pt-2">Graphic Designer</p>
+                                    <p class="name">Stacey Rickson</p>
+                                    <p class="position pt-2">Project Manager, Colabrio</p>
                                 </div>
                             </div>
                             <div class="swiper-slide testiBox scroll anima smd fade" data-anima-delay="5">

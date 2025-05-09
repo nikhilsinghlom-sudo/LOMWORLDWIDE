@@ -227,9 +227,9 @@ include("header.php");
                 <section class="homeHeader anima in inited" id="home-header" data-anima-delay="4">
                     <div class="homeHeader__mediaCards mediaImageOne">
                         <picture>
-                            <source srcset="staging/Deep_Gandhi.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=f32176c1e6990fabacf3fb3de399bc15 1x, staging/Deep_Gandhi.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=ff3aad16faf081545d43efd4dca278cb 2x" media="(max-width: 800px)">
-                            <source srcset="staging/Deep_Gandhi.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=f8738833ce9969bf47fee664c4a384ae 1x, staging/Deep_Gandhi.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=9172f44114dc61f012518f2817bf6a60 2x" media="(min-width: 800px)">
-                            <img src="staging/Deep_Gandhi.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920499&amp;s=f8738833ce9969bf47fee664c4a384ae" class="media img ourTeam__photo" alt="Deanna">
+                            <source srcset="staging/D0034566.png?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=d824b2a3995e780c78efe3bbddefe216 1x, staging/D0034566.png?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=a3508d0234f6e8a0a12e5c15fc492c8c 2x" media="(max-width: 800px)">
+                            <source srcset="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433 1x, staging/D0034566.png?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=9af370f99d8d9c542d89abd5d62bfaac 2x" media="(min-width: 800px)">
+                            <img src="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433" class="media img ourTeam__photo" alt="Deepti Duggal">
                         </picture>
                     </div>
                     <div class="homeHeader__content">
@@ -253,9 +253,9 @@ include("header.php");
                 <section class="homeHeader anima in inited" id="home-header" data-anima-delay="4">
                     <div class="homeHeader__mediaCards homeHeader__mediaCards2 mediaImageTwo">
                         <picture>
-                            <source srcset="staging/Rainy_Vermal.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=ee840d4d617235d68d07a85d45cb3cfd 1x, staging/Rainy_Vermal.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=64d95a6f2f0208c127713ca874148fa7 2x" media="(max-width: 800px)">
-                            <source srcset="staging/Rainy_Vermal.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57 1x, staging/Rainy_Vermal.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=6f9907ccade954b01c40bd5f9cc86927 2x" media="(min-width: 800px)">
-                            <img src="staging/Rainy_Vermal.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919421&amp;s=bc71b5883be8798472c7db9ad2686a57" class="media img ourTeam__photo" alt="David">
+                            <source srcset="staging/Abhimanyu_Singh.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=8144856f09395c27404cc8788ac17deb 1x, staging/Abhimanyu_Singh.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=6d6e692163c72aa433b30c391caea576 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb 1x, staging/Abhimanyu_Singh.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=ad0148d3fd166debccec9a6bf3925d94 2x" media="(min-width: 800px)">
+                            <img src="staging/Abhimanyu_Singh.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919428&amp;s=50ac11aa1b47c2784b557bf7612407fb" class="media img ourTeam__photo" alt="Abhimanyu Singh">
                         </picture>
                     </div>
                     <div class="homeHeader__content">
@@ -283,7 +283,7 @@ include("header.php");
                         <picture>
                             <source srcset="staging/Vishank_Chaudhary.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=bd704f6a5dfe6dff0abfa99803ae5972 1x, staging/Vishank_Chaudhary.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=8b2b9b718f6c0e606b7f18e8a6fbd2f9 2x" media="(max-width: 800px)">
                             <source srcset="staging/Vishank_Chaudhary.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2 1x, staging/Vishank_Chaudhary?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=405e996490ad6308ee568f427af70e96 2x" media="(min-width: 800px)">
-                            <img src="staging/Vishank_Chaudhary.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2" class="media img ourTeam__photo" alt="Dana">
+                            <img src="staging/Vishank_Chaudhary.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2" class="media img ourTeam__photo" alt="Vishank Chaudhary">
                         </picture>
                     </div>
                     <div class="homeHeader__content">
@@ -307,9 +307,9 @@ include("header.php");
                 <section class="homeHeader anima in inited" id="home-header" data-anima-delay="4">
                     <div class="homeHeader__mediaCards homeHeader__mediaCards2 mediaImageTwo">
                         <picture>
-                            <source srcset="staging/Ovesh_Ahamad.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=85d2621bd4a07413448af5d09a2d49c9 1x, staging/Ovesh_Ahamad.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=487e43ef19401f0782395e0bcc4cfe40 2x" media="(max-width: 800px)">
-                            <source srcset="staging/Ovesh_Ahamad.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=3bfbd840a607c6466e831fbc47bd36f0 1x, staging/Ovesh_Ahamad.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=4ba4a39d29f7355b0091120f0feb3db1 2x" media="(min-width: 800px)">
-                            <img src="staging/Ovesh_Ahamad.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730923463&amp;s=3bfbd840a607c6466e831fbc47bd36f0" class="media img ourTeam__photo" alt="Christa">
+                            <source srcset="staging/kunaal_Bhargav.jpg?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=9920eb4c8af0adcfe124db2fae9af57a 1x, staging/Shweta_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=108cb6008352617d9370423a2bf6b544 2x" media="(max-width: 800px)">
+                            <source srcset="staging/kunaal_Bhargav.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099 1x, staging/Shweta_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=1d99a01bc15785877f9a4434c7b4ad4f 2x" media="(min-width: 800px)">
+                            <img src="staging/kunaal_Bhargav.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099" class="media img ourTeam__photo" alt="Kunaal Bhargav">
                         </picture>
                     </div>
                     <div class="homeHeader__content">
@@ -336,15 +336,13 @@ include("header.php");
             <section class="partnersSection">
                 <section class="mediaSentence">
                     <div class="mediaSentence__main pal">
-                        <span class="anima fade in">PARTNERING</span>
+                        <span class="anima fade in fs-28 text-yellow">PARTNERING</span>
                         <div class="mt-4 h0 partnersText pal-reveal h-reveal u-hideMobile" data-pal="0.155" data-pal-push="4.5">
                             <p>
                                 <span class="in">Rolling with </span>
                                 <span class="in">the </span>
                                 <span class="in">biggest </span>
-                                <span class="">
-                                    <strong>Names </strong>
-                                </span>
+                                <span class="">Names</span>
                                 <span class="">IN </span>
                                 <span class="">THE </span>
                                 <span class="">BIZ! </span>
@@ -470,6 +468,25 @@ include("header.php");
                         </div>
                     </div>
                 </section>
+            </section>
+            <!-- AWARDS SECTION -->
+            <section class="awardSection">
+                <p class="fs-28 text-center text-yellow">AWARDS</p>
+                <p class="my-3 text-center awardsText">We love doing creative work and being recognised for our work, but the real happiness comes when our clients and consumers find a strong connect with our work.</p>
+                <div class="awards">
+                    <div class="text-center">
+                        <img src="staging/awardsLogo1.png" alt="Awards Image">
+                        <p class="awardsInfo">Top 10 video production companies in India</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="staging/awardsLogo2.png" alt="Awards Image">
+                        <p class="awardsInfo">10 Most Influential Entrepreneurs of 2020</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="staging/awardsLogo3.png" alt="Awards Image">
+                        <p class="awardsInfo">100 Top Companies in the World</p>
+                    </div>
+                </div>
             </section>
             <!-- CALL TO ACTION SECTION -->
             <section class="callToAction">

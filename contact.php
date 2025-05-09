@@ -1,3 +1,48 @@
+<?php
+// Include PHPMailer classes
+require 'PHPMailer/Exception.php';
+require 'PHPMailer/PHPMailer.php';
+require 'PHPMailer/SMTP.php';
+
+$formMessage = ''; // Initialize the formMessage variable
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name    = htmlspecialchars($_POST['name']);
+    $email   = htmlspecialchars($_POST['email']);
+    $company = htmlspecialchars($_POST['company']);
+    $message = htmlspecialchars($_POST['message']);
+
+    $mail = new PHPMailer(true);
+
+    try {
+        // SMTP setup
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com'; //GoDaddy stmp server
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'kcika06@gmail.com'; // change to the godaddy Gmail address
+        $mail->Password   = 'hfdi obhf gthq vwcp'; //change to the godaddy app password
+        $mail->SMTPSecure = 'tls';
+        $mail->Port       = 587;
+
+        // Email settings
+        $mail->setFrom('kcika06@gmail.com', 'Contact Form');
+        $mail->addAddress('kcika06@gmail.com'); //  change to company email later
+        $mail->Subject = 'New Contact Form Submission';
+        $mail->Body    = "Name: $name\nEmail: $email\nCompany: $company\n\nMessage:\n$message";
+
+        // Send the email
+        if ($mail->send()) {
+            $formMessage = '<div class="form-message success">✅ Message sent successfully!</div>';
+        }
+    } catch (Exception $e) {
+        $formMessage = '<div class="form-message error">❌ Message could not be sent. Mailer Error: ' . $mail->ErrorInfo . '</div>';
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +56,10 @@
 <body cz-shortcut-listen="true">
     <div id="container">
         <main id="main" class="">
+            <!-- Display Success/Error Message -->
+            <?php if (!empty($formMessage)): ?>
+                <?= $formMessage; ?>
+            <?php endif; ?>
             <section class="shortHeader">
                 <div class="shortHeader__inner">
                     <h2 class="h0 shortHeader__heading zero h-anim anima spanned in" data-spanner="w">
@@ -42,31 +91,32 @@
 
             <section class="contactForm">
                 <div class="contactForm__inner anima fade in" data-anima-delay="5">
-                    <form method="post" action="action.php" accept-charset="UTF-8">
+                    <form method="post" accept-charset="UTF-8">
 
                         <div class="textField">
                             <label class="textField__label" for="from-name">Name<span>*</span></label>
-                            <input tabindex="2" class="textField__input getDirty" id="from-name" type="text" name="fromName" value="" placeholder="" required="">
+                            <input tabindex="2" class="textField__input getDirty" id="from-name" type="text" name="name" value="" placeholder="" required="">
                         </div>
 
                         <div class="textField">
                             <label class="textField__label" for="company">Company<span>*</span></label>
-                            <input tabindex="2" class="textField__input getDirty" id="company" type="text" name="messagecompany" value="" placeholder="">
+                            <input tabindex="2" class="textField__input getDirty" id="company" type="text" name="company" value="" placeholder="" required="">
                         </div>
                         <div class="textField">
                             <label class="textField__label" for="from-email">Email<span>*</span></label>
-                            <input tabindex="2" class="textField__input getDirty" id="from-email" type="email" name="fromEmail" value="" placeholder="" required="">
+                            <input tabindex="2" class="textField__input getDirty" id="from-email" type="email" name="email" value="" placeholder="" required="">
                         </div>
 
                         <div class="textField dirty focus">
                             <label class="textField__label" for="message">Message<span>*</span></label>
-                            <textarea tabindex="2" class="textField__input textField__textarea getDirty" rows="5" id="message" name="messagemessage" placeholder="" required=""></textarea>
+                            <textarea tabindex="2" class="textField__input textField__textarea getDirty" rows="5" id="message" name="message" placeholder="" required=""></textarea>
                         </div>
                         <span class="ctaButton ctaButton--dark submitButton">
                             <input class="ctaButton__label" type="submit" name="submit" value="Send Message">
                         </span>
                         <!--<p class="body body--large contactForm__success">Thank you for your message.</p>-->
                     </form>
+
                 </div>
             </section>
 
