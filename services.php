@@ -46,9 +46,7 @@
                     <div class="servicesList__service anima in">
                         <div class="serviceList__inner anima fade in">
                             <h3 class="servicesList__title"><span class="servicesList__icon">
-                                    <!-- <img src="https://rhythm-influence.files.svdcdn.com/staging/serviceIcon_1.svg?dm=1728475195"
-                                        class="yellow-icon media img " alt="Service Icon 1"> -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none" webcrx="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <path d="M3 33V18C3 9.717 9.717 3 17.997 3C26.277 3 32.997 9.717 32.997 18V33" stroke="#FFD600" stroke-miterlimit="10" />
                                         <path d="M23.002 33.0012V18.2862C23.002 15.5262 20.764 13.2852 18.001 13.2852C15.238 13.2852 13 15.5232 13 18.2862V33.0012" stroke="#FFD600" stroke-miterlimit="10" />
                                         <path d="M7.99219 33.0005V17.9795C7.99219 12.4595 12.4712 7.98047 17.9912 7.98047C23.5112 7.98047 27.9902 12.4595 27.9902 17.9795V33.0005" stroke="#FFD600" stroke-miterlimit="10" />
@@ -61,9 +59,7 @@
                     <div class="servicesList__service anima in">
                         <div class="serviceList__inner anima fade in">
                             <h3 class="servicesList__title"><span class="servicesList__icon">
-                                    <!-- <img src="https://rhythm-influence.files.svdcdn.com/staging/serviceIcon_2.svg?dm=1728475196"
-                                        class="media img " alt="Service Icon 2"> -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none" webcrx="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <g clip-path="url(#clip0_1898_1659)">
                                             <path d="M26.6187 22.3996C25.688 24.2465 26.4307 26.4983 28.2777 27.4289C30.1246 28.3596 32.3763 27.6169 33.307 25.77C34.2377 23.923 33.495 21.6713 31.648 20.7406C29.8011 19.8099 27.5494 20.5527 26.6187 22.3996Z" stroke="#FFD600" stroke-width="0.964656" stroke-miterlimit="10" />
                                             <path d="M8.36868 28.4269C7.43798 30.2739 8.18073 32.5256 10.0277 33.4563C11.8746 34.387 14.1263 33.6442 15.057 31.7973C15.9877 29.9504 15.245 27.6986 13.398 26.7679C11.5511 25.8373 9.29937 26.58 8.36868 28.4269Z" stroke="#FFD600" stroke-width="0.964656" stroke-miterlimit="10" />
@@ -87,9 +83,7 @@
                     <div class="servicesList__service anima in">
                         <div class="serviceList__inner anima fade in">
                             <h3 class="servicesList__title"><span class="servicesList__icon">
-                                    <!-- <img src="https://rhythm-influence.files.svdcdn.com/staging/serviceIcon_3.svg?dm=1728475196"
-                                        class="media img " alt="Service Icon 3"> -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none" webcrx="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <path d="M21.264 25.1218C27.0017 25.1218 31.653 20.4704 31.653 14.7328C31.653 8.99506 27.0017 4.34375 21.264 4.34375C15.5263 4.34375 10.875 8.99506 10.875 14.7328C10.875 20.4704 15.5263 25.1218 21.264 25.1218Z" stroke="#FFD600" stroke-width="0.803944" stroke-miterlimit="10" />
                                         <path d="M24.528 17.2552C27.7191 17.2552 30.306 14.6683 30.306 11.4772C30.306 8.28612 27.7191 5.69922 24.528 5.69922C21.3369 5.69922 18.75 8.28612 18.75 11.4772C18.75 14.6683 21.3369 17.2552 24.528 17.2552Z" stroke="#FFD600" stroke-width="0.803944" stroke-miterlimit="10" />
                                         <path d="M18 33C26.2843 33 33 26.2843 33 18C33 9.71573 26.2843 3 18 3C9.71573 3 3 9.71573 3 18C3 26.2843 9.71573 33 18 33Z" stroke="#FFD600" stroke-width="0.803944" stroke-miterlimit="10" />
@@ -103,8 +97,7 @@
                     <div class="servicesList__service anima in">
                         <div class="serviceList__inner anima fade in">
                             <h3 class="servicesList__title"><span class="servicesList__icon">
-                                    <!-- <img src="https://rhythm-influence.files.svdcdn.com/staging/serviceIcon_4.svg?dm=1728475196" class="media img " alt="Service Icon 4"> -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none" webcrx="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <path d="M33.8032 33.0015H3L12.3606 20.3398C14.0499 21.589 16.139 22.3297 18.4016 22.3297C20.6643 22.3297 22.7534 21.589 24.4426 20.3398L33.8032 33.0015Z" stroke="#FFD600" stroke-width="0.830619" stroke-miterlimit="10" />
                                         <path d="M28.5659 12.1634C28.5659 15.514 26.9448 18.4833 24.4466 20.3369L18.4056 12.1634L12.3646 20.3369C9.86324 18.4864 8.24219 15.514 8.24219 12.1634C8.24219 6.55012 12.7923 2 18.4056 2C24.0188 2 28.5659 6.55012 28.5659 12.1634Z" stroke="#FFD600" stroke-width="0.830619" stroke-miterlimit="10" />
                                         <path d="M28.5659 12.1634C28.5659 15.514 26.9448 18.4833 24.4466 20.3369L18.4056 12.1634L12.3646 20.3369C9.86324 18.4864 8.24219 15.514 8.24219 12.1634C8.24219 6.55012 12.7923 2 18.4056 2C24.0188 2 28.5659 6.55012 28.5659 12.1634Z" stroke="#FFD600" stroke-width="0.830619" stroke-miterlimit="10" />
@@ -116,8 +109,7 @@
                     <div class="servicesList__service anima in">
                         <div class="serviceList__inner anima fade in">
                             <h3 class="servicesList__title"><span class="servicesList__icon">
-                                    <!-- <img src="https://rhythm-influence.files.svdcdn.com/staging/serviceIcon_5.svg?dm=1728475196" class="media img " alt="Service Icon 5"> -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none" webcrx="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <g clip-path="url(#clip0_1898_1667)">
                                             <path d="M24.5296 17.8913L1 1V34.7826L24.5296 17.8913Z" stroke="#FFD600" stroke-width="0.90531" stroke-miterlimit="10" />
                                             <path d="M34.909 17.8913L11.3828 1V34.7826L34.909 17.8913Z" stroke="#FFD600" stroke-width="0.90531" stroke-miterlimit="10" />
@@ -135,8 +127,7 @@
                     <div class="servicesList__service anima in">
                         <div class="serviceList__inner anima fade in">
                             <h3 class="servicesList__title"><span class="servicesList__icon">
-                                    <!-- <img src="https://rhythm-influence.files.svdcdn.com/staging/serviceIcon_6.svg?dm=1728475198" class="media img " alt="Service Icon 6"> -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none" webcrx="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <path d="M34.6321 2H2V34.6321H34.6321V2Z" stroke="#FFD600" stroke-width="0.874478" stroke-miterlimit="10" />
                                         <path d="M18.3219 2.08822L2.09375 18.3164L18.3219 34.5446L34.5501 18.3164L18.3219 2.08822Z" stroke="#FFD600" stroke-width="0.874478" stroke-miterlimit="10" />
                                         <path d="M26.3833 10.2539H10.25V26.3872H26.3833V10.2539Z" stroke="#FFD600" stroke-width="0.874478" stroke-miterlimit="10" />
@@ -149,8 +140,7 @@
                     <div class="servicesList__service anima in">
                         <div class="serviceList__inner anima fade in">
                             <h3 class="servicesList__title"><span class="servicesList__icon">
-                                    <!-- <img src="https://rhythm-influence.files.svdcdn.com/staging/serviceIcon_7.svg?dm=1728475198" class="media img " alt="Service Icon 7"> -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none" webcrx="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <path d="M18 2V34" stroke="#FFD600" stroke-width="1.28" stroke-miterlimit="10" />
                                         <path d="M10 4.14062L26 31.8558" stroke="#FFD600" stroke-width="1.28" stroke-miterlimit="10" />
                                         <path d="M4.14062 10L31.8558 26" stroke="#FFD600" stroke-width="1.28" stroke-miterlimit="10" />
@@ -166,8 +156,7 @@
                     <div class="servicesList__service anima in">
                         <div class="serviceList__inner anima fade in">
                             <h3 class="servicesList__title"><span class="servicesList__icon">
-                                    <!-- <img src="https://rhythm-influence.files.svdcdn.com/staging/serviceIcon_8.svg?dm=1728475198" class="media img " alt="Service Icon 7"> -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none" webcrx="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon" width="36" height="36" viewBox="0 0 36 36" fill="none">
                                         <path d="M17.9717 21.9278C23.4746 21.9278 27.9356 17.4668 27.9356 11.9639C27.9356 6.46098 23.4746 2 17.9717 2C12.4688 2 8.00781 6.46098 8.00781 11.9639C8.00781 17.4668 12.4688 21.9278 17.9717 21.9278Z" stroke="#FFD600" stroke-width="1.27799" stroke-miterlimit="10" />
                                         <path d="M11.9639 34.002C17.4668 34.002 21.9278 29.541 21.9278 24.0381C21.9278 18.5352 17.4668 14.0742 11.9639 14.0742C6.46099 14.0742 2 18.5352 2 24.0381C2 29.541 6.46099 34.002 11.9639 34.002Z" stroke="#FFD600" stroke-width="1.27799" stroke-miterlimit="10" />
                                         <path d="M23.9873 34.002C29.4902 34.002 33.9512 29.541 33.9512 24.0381C33.9512 18.5352 29.4902 14.0742 23.9873 14.0742C18.4844 14.0742 14.0234 18.5352 14.0234 24.0381C14.0234 29.541 18.4844 34.002 23.9873 34.002Z" stroke="#FFD600" stroke-width="1.27799" stroke-miterlimit="10" />
@@ -527,11 +516,9 @@
                         <p><span class="w" data-i="1">Let’s</span>
                             <span class="window">
                                 <picture>
-                                    <source srcset="staging/freepik__expand__63000.webp?w=120&amp;h=110&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=b02ccf128f62343a97ac31068ebb9951 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 2x" media="(max-width: 800px)">
-                                    <source srcset="staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=480&amp;h=440&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=68f9b95c748da17b50af0c36392a626c 2x" media="(min-width: 800px)">
-                                    <!-- <source srcset="https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=120&amp;h=110&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=b02ccf128f62343a97ac31068ebb9951 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 2x" media="(max-width: 800px)">
-                                    <source srcset="https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=480&amp;h=440&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=68f9b95c748da17b50af0c36392a626c 2x" media="(min-width: 800px)"> -->
-                                    <img src="https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba" class="media img " alt="Dj Girl">
+                                    <source srcset="staging/freepik__expand__63000.webp?w=120&amp;h=110&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=b02ccf128f62343a97ac31068ebb9951 1x, staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 2x" media="(max-width: 800px)">
+                                    <source srcset="staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 1x, staging/freepik__expand__63000.webp?w=480&amp;h=440&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=68f9b95c748da17b50af0c36392a626c 2x" media="(min-width: 800px)">
+                                    <img src="staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba" class="media img " alt="Dj Girl">
                                 </picture>
                             </span>
                             <span class="w" data-i="2">Talk!</span>
@@ -539,7 +526,7 @@
                     </h2>
                     <div class="callToAction__buttonWrap">
                         <div data-follow=".callToAction__inner" style="transform: translate3d(0px, 0px, 0px) rotate(0deg);">
-                            <a href="https://lomdigital.com/lomdigitalweb/contact" class="button anima in" data-anima-delay="30">
+                            <a href="contact.php" class="button anima in" data-anima-delay="30">
                                 <span class="button__inner">Get Started</span>
                             </a>
                         </div>

@@ -144,7 +144,6 @@
                 </div>
                 <div class="mediaSentence__bottom anima fade in">
                     <p class="body"></p>
-
                 </div>
             </section>
             <section class="statsSection">
@@ -205,23 +204,23 @@
                     </div>
                     <div class="ourTeam__member scroll anima smd " data-anima-delay="3.5">
                         <picture>
-                            <source srcset="staging/Shweta_Sharma.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=9920eb4c8af0adcfe124db2fae9af57a 1x, staging/Shweta_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=108cb6008352617d9370423a2bf6b544 2x" media="(max-width: 800px)">
-                            <source srcset="staging/Shweta_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099 1x, staging/Shweta_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=1d99a01bc15785877f9a4434c7b4ad4f 2x" media="(min-width: 800px)">
-                            <img src="staging/Shweta_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099" class="media img ourTeam__photo" alt="Katie">
-                        </picture>
-
-                        <p class="ourTeam__name"><span class="text-yellow">Shweta</span> Sharma</p>
-                        <span class="ourTeam__position">HR Manager </span>
-                    </div>
-                    <div class="ourTeam__member scroll anima smd " data-anima-delay="5">
-                        <picture>
-                            <source srcset="staging/D0034566.png?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=d824b2a3995e780c78efe3bbddefe216 1x, staging/D0034566.png?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=a3508d0234f6e8a0a12e5c15fc492c8c 2x" media="(max-width: 800px)">
-                            <source srcset="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433 1x, staging/D0034566.png?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=9af370f99d8d9c542d89abd5d62bfaac 2x" media="(min-width: 800px)">
-                            <img src="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433" class="media img ourTeam__photo" alt="Julie">
+                            <source srcset="staging/Deepti.png?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=9920eb4c8af0adcfe124db2fae9af57a 1x, staging/Shweta_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=108cb6008352617d9370423a2bf6b544 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Deepti.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099 1x, staging/Shweta_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=1d99a01bc15785877f9a4434c7b4ad4f 2x" media="(min-width: 800px)">
+                            <img src="staging/Deepti.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099" class="media img ourTeam__photo" alt="Katie">
                         </picture>
 
                         <p class="ourTeam__name"><span class="text-yellow">Deepti</span> Duggal</p>
-                        <span class="ourTeam__position">Creative Head</span>
+                        <span class="ourTeam__position">Creative Head </span>
+                    </div>
+                    <div class="ourTeam__member scroll anima smd " data-anima-delay="5">
+                        <picture>
+                            <source srcset="staging/Deep_Gandhi.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=d824b2a3995e780c78efe3bbddefe216 1x, staging/D0034566.png?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=a3508d0234f6e8a0a12e5c15fc492c8c 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Deep_Gandhi.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433 1x, staging/D0034566.png?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=9af370f99d8d9c542d89abd5d62bfaac 2x" media="(min-width: 800px)">
+                            <img src="staging/Deep_Gandhi.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433" class="media img ourTeam__photo" alt="Julie">
+                        </picture>
+
+                        <p class="ourTeam__name"><span class="text-yellow">Deep</span> Gandhi</p>
+                        <span class="ourTeam__position">Sr. Client Servicing Manager</span>
                     </div>
                 </div>
                 <!-- OUR TEAM SECTION -->
@@ -250,9 +249,9 @@
 
                     <div class="ourTeam__member scroll anima smd " data-anima-delay="5">
                         <picture>
-                            <source srcset="staging/D0034566.png?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=d824b2a3995e780c78efe3bbddefe216 1x, staging/D0034566.png?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=a3508d0234f6e8a0a12e5c15fc492c8c 2x" media="(max-width: 800px)">
-                            <source srcset="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433 1x, staging/D0034566.png?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=9af370f99d8d9c542d89abd5d62bfaac 2x" media="(min-width: 800px)">
-                            <img src="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433" class="media img ourTeam__photo" alt="Deepti Duggal">
+                            <source srcset="staging/Deepti.png?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=d824b2a3995e780c78efe3bbddefe216 1x, staging/D0034566.png?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=a3508d0234f6e8a0a12e5c15fc492c8c 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Deepti.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433 1x, staging/D0034566.png?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=9af370f99d8d9c542d89abd5d62bfaac 2x" media="(min-width: 800px)">
+                            <img src="staging/Deepti.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433" class="media img ourTeam__photo" alt="Deepti Duggal">
                         </picture>
 
                         <p class="ourTeam__name"><span class="text-yellow">Deepti</span> Duggal</p>
@@ -267,7 +266,7 @@
                         </picture>
 
                         <p class="ourTeam__name"><span class="text-yellow">Deep</span> Gandhi</p>
-                        <span class="ourTeam__position">Client Servicing Manager </span>
+                        <span class="ourTeam__position">Sr. Client Servicing Manager </span>
                     </div>
 
                     <div class="ourTeam__member scroll anima smd fade " data-anima-delay="3.5">
@@ -294,12 +293,12 @@
 
                     <div class="ourTeam__member scroll anima smd fade " data-anima-delay="2">
                         <picture>
-                            <source srcset="staging/Sneha_Sharma.webp?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f357d6598a50b1a51d2667697c20da6 1x, staging/Sneha_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=631bb4b94da16cfa6aa38c69e45b7cba 2x" media="(max-width: 800px)">
-                            <source srcset="staging/Sneha_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a 1x, staging/Sneha_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=68105c3f9403d2a649a80941f07b16e0 2x" media="(min-width: 800px)">
-                            <img src="staging/Sneha_Sharma.webp?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a" class="media img ourTeam__photo" alt="Simran Goswami">
+                            <source srcset="staging/Simran-1.jpg?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f357d6598a50b1a51d2667697c20da6 1x, staging/Sneha_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=631bb4b94da16cfa6aa38c69e45b7cba 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Simran-1.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a 1x, staging/Sneha_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=68105c3f9403d2a649a80941f07b16e0 2x" media="(min-width: 800px)">
+                            <img src="staging/Simran-1.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a" class="media img ourTeam__photo" alt="Simran Goswami">
                         </picture>
                         <p class="ourTeam__name"><span class="text-yellow">Simran</span> Goswami</p>
-                        <span class="ourTeam__position">Graphics & UI/UX Designer</span>
+                        <span class="ourTeam__position">Sr. Graphics Designer</span>
                     </div>
 
                     <div class="ourTeam__member scroll anima smd fade " data-anima-delay="3.5">
@@ -321,6 +320,27 @@
                         <p class="ourTeam__name"><span class="text-yellow">Ovesh</span> Ahamad</p>
                         <span class="ourTeam__position">Jr. Motion Designer</span>
                     </div>
+
+                    <div class="ourTeam__member scroll anima smd fade " data-anima-delay="2">
+                        <picture>
+                            <source srcset="staging/jasleen-1.jpg?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f357d6598a50b1a51d2667697c20da6 1x, staging/Sneha_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=631bb4b94da16cfa6aa38c69e45b7cba 2x" media="(max-width: 800px)">
+                            <source srcset="staging/jasleen-1.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a 1x, staging/Sneha_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=68105c3f9403d2a649a80941f07b16e0 2x" media="(min-width: 800px)">
+                            <img src="staging/jasleen-1.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919755&amp;s=5f3927bd5ff985d5fc5de16bf4ba2f7a" class="media img ourTeam__photo" alt="Simran Goswami">
+                        </picture>
+                        <p class="ourTeam__name"><span class="text-yellow">Jasleen</span> Kaur</p>
+                        <span class="ourTeam__position">Sr. Graphic Designer</span>
+                    </div>
+
+                    <div class="ourTeam__member scroll anima smd fade " data-anima-delay="3.5">
+                        <picture>
+                            <source srcset="staging/Deepak-1.jpg?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=bd704f6a5dfe6dff0abfa99803ae5972 1x, staging/Vishank_Chaudhary.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=8b2b9b718f6c0e606b7f18e8a6fbd2f9 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Deepak-1.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2 1x, staging/Vishank_Chaudhary?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=405e996490ad6308ee568f427af70e96 2x" media="(min-width: 800px)">
+                            <img src="staging/Deepak-1.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920694&amp;s=e151322c0bf51ad90fd682643b92edd2" class="media img ourTeam__photo" alt="Vishank Chaudhary">
+                        </picture>
+                        <p class="ourTeam__name"><span class="text-yellow">Deepak</p>
+                        <span class="ourTeam__position">Jr. Graphic Designer</span>
+                    </div>
+
                 </div>
             </section>
             <div class="workGallery">
@@ -419,7 +439,7 @@
                     </h2>
                     <div class="callToAction__buttonWrap">
                         <div data-follow=".callToAction__inner" style="transform: translate3d(0px, 0px, 0px) rotate(0deg);">
-                            <a href="https://lomdigital.com/lomdigitalweb/contact" class="button anima" data-anima-delay="30">
+                            <a href="contact.php" class="button anima" data-anima-delay="30">
                                 <span class="button__inner">get started</span>
                             </a>
                         </div>

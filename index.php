@@ -23,51 +23,9 @@ include("header.php");
                 </p>
             </section>
             <!-- to be changed! -->
-            <div class="videoContainer">
+            <section class="videoContainer">
                 <section class="homeHeader anima in inited" id="home-header" data-anima-delay="4">
-                    <!-- <div class="homeHeader__mediaCards">
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " poster="" ?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156415&amp;s=d2a0bf388444e9e1d7f6dc7d78ec352e">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (1).mp4">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/David-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730986844&s=e775cc6b51bdc360b8f16b265e8baeaa">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Meg-Poster-Video.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730986119&s=1a1bb8800c645af935afcba95a42f0d2">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (2).mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (2).mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Kalen-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730985719&s=dea294e78a9740b1a7eb4da26e03c240">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha.mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb//staging/Standard_Mode_Animate_the_character_animate_ha.mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Mariah-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730985798&s=d62694f24895307ee8455d1c03a33396">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha (1).mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha (1).mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                    </div> -->
                     <div class="homeHeader__mediaCards mediaImageOne">
-                        <!-- <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" poster="" ?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156415&amp;s=d2a0bf388444e9e1d7f6dc7d78ec352e">
-                                <source src="staging/Standard_Mode_Animate_the_character_who_is_fol (1).mp4">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/David-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730986844&s=e775cc6b51bdc360b8f16b265e8baeaa">
-                                <source src="staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(min-width: 800px)">
-                                <source src="staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(max-width: 800px)">
-                            </video>
-                        </div> -->
                         <div class="homeHeader__mediaCard mediaImageOne">
                             <video src="staging/Standard_Mode_Animate_the_character_who_is_fol (2).mp4" class="media vid " autoplay="" muted="" loop="true" ?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156415&amp;s=d2a0bf388444e9e1d7f6dc7d78ec352e></video>
                         </div>
@@ -83,45 +41,15 @@ include("header.php");
                                 <span class="w" data-i="3" style="position: relative;left: 70px;">
                                     <span>Online </span>
                                     <span class="split"> </span>
-                                    <span class="w" data-i="4" style="position: relative;left: 5px;">With Strategy</span>
+                                    <span class="w" data-i="4">With Strategy</span>
+                                </span>
                             </p>
                         </h1>
                     </div>
-                    <span class="homeHeader__decoText subheading anima fade" data-anima-delay="25"></span>
+                    <span class=" homeHeader__decoText subheading anima fade" data-anima-delay="25"></span>
                 </section>
                 <!-- SECOND CARD -->
                 <section class="homeHeader anima in inited" id="home-header" data-anima-delay="4">
-                    <!-- <div class="homeHeader__mediaCards homeHeader__mediaCards2">
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " poster="" ?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156415&amp;s=d2a0bf388444e9e1d7f6dc7d78ec352e">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (1).mp4">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/David-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730986844&s=e775cc6b51bdc360b8f16b265e8baeaa">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Meg-Poster-Video.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730986119&s=1a1bb8800c645af935afcba95a42f0d2">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (2).mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (2).mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Kalen-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730985719&s=dea294e78a9740b1a7eb4da26e03c240">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha.mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb//staging/Standard_Mode_Animate_the_character_animate_ha.mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Mariah-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730985798&s=d62694f24895307ee8455d1c03a33396">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha (1).mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha (1).mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                    </div> -->
                     <div class="homeHeader__mediaCards homeHeader__mediaCards2 mediaImageTwo">
                         <div class="homeHeader__mediaCard mediaImageTwo">
                             <video src="staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" class="media vid " autoplay="" muted="" loop="true" ?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156415&amp;s=d2a0bf388444e9e1d7f6dc7d78ec352e></video>
@@ -137,10 +65,11 @@ include("header.php");
 
                             </p>
                             <p>
-                                <span class="w" data-i="3" style="position: relative;left: 5px;">
-                                    <span>Spark </span>
-                                    <span class="w" data-i="4" style="position: relative;left: 14px;">Stories</span>
-                                    <span class="split"> </span>
+                                <span class="w evenCard" data-i="3">
+                                    <span>Growth </span>
+                                    <span class="w" data-i="4">Strategy</span>
+                                    <span class=" split"> </span>
+                                </span>
                             </p>
                         </h1>
                     </div>
@@ -148,33 +77,6 @@ include("header.php");
                 </section>
                 <!-- THIRD CARD -->
                 <section class="homeHeader anima in inited" id="home-header" data-anima-delay="4">
-                    <!-- <div class="homeHeader__mediaCards">
-
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/David-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730986844&s=e775cc6b51bdc360b8f16b265e8baeaa">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol.mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Meg-Poster-Video.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730986119&s=1a1bb8800c645af935afcba95a42f0d2">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (2).mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_who_is_fol (2).mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Kalen-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730985719&s=dea294e78a9740b1a7eb4da26e03c240">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha.mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb//staging/Standard_Mode_Animate_the_character_animate_ha.mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                        <div class="homeHeader__mediaCard">
-                            <video autoplay="" muted="" loop="" playsinline="" class="media vid " onplaying="if(!this.classList.contains('init')){ this.pause(); this.classList.add('init');}" poster="staging/Mariah-Video-Poster.png?w=280&h=400&auto=compress%2Cformat&fit=crop&dm=1730985798&s=d62694f24895307ee8455d1c03a33396">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha (1).mp4" media="(min-width: 800px)">
-                                <source src="https://lomdigital.com/lomdigitalweb/staging/Standard_Mode_Animate_the_character_animate_ha (1).mp4" media="(max-width: 800px)">
-                            </video>
-                        </div>
-                    </div> -->
                     <div class="homeHeader__mediaCards mediaImageOne">
                         <div class="homeHeader__mediaCard mediaImageOne">
                             <video src="staging/Standard_Mode_Animate_the_character_who_is_fol (1).mp4" class="media vid " autoplay="" muted="" loop="true" ?w=320&amp;h=560&amp;auto=compress%2Cformat&amp;fit=crop&amp;dm=1733156415&amp;s=d2a0bf388444e9e1d7f6dc7d78ec352e></video>
@@ -191,7 +93,8 @@ include("header.php");
                                 <span class="w" data-i="3" style="position: relative;left: 70px;">
                                     <span>Online </span>
                                     <span class="split"> </span>
-                                    <span class="w" data-i="4" style="position: relative;left: 5px;">With Strategy</span>
+                                    <span class="w" data-i="4">With Strategy</span>
+                                </span>
                             </p>
                         </h1>
                     </div>
@@ -211,13 +114,13 @@ include("header.php");
                                 <span class="w" data-i="2">Story</span>
                                 <span class="split"> </span>
                                 <span class="w" data-i="2">And</span>
-
                             </p>
                             <p>
-                                <span class="w" data-i="3" style="position: relative;left: 5px;">
-                                    <span>Spark </span>
-                                    <span class="w" data-i="4" style="position: relative;left: 14px;">Stories</span>
+                                <span class="w evenCard" data-i="3">
+                                    <span>Growth </span>
+                                    <span class="w" data-i="4">Strategy</span>
                                     <span class="split"> </span>
+                                </span>
                             </p>
                         </h1>
                     </div>
@@ -227,9 +130,9 @@ include("header.php");
                 <section class="homeHeader anima in inited" id="home-header" data-anima-delay="4">
                     <div class="homeHeader__mediaCards mediaImageOne">
                         <picture>
-                            <source srcset="staging/D0034566.png?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=d824b2a3995e780c78efe3bbddefe216 1x, staging/D0034566.png?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=a3508d0234f6e8a0a12e5c15fc492c8c 2x" media="(max-width: 800px)">
-                            <source srcset="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433 1x, staging/D0034566.png?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=9af370f99d8d9c542d89abd5d62bfaac 2x" media="(min-width: 800px)">
-                            <img src="staging/D0034566.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433" class="media img ourTeam__photo" alt="Deepti Duggal">
+                            <source srcset="staging/Deepti.png?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=d824b2a3995e780c78efe3bbddefe216 1x, staging/D0034566.png?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=a3508d0234f6e8a0a12e5c15fc492c8c 2x" media="(max-width: 800px)">
+                            <source srcset="staging/Deepti.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433 1x, staging/D0034566.png?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=9af370f99d8d9c542d89abd5d62bfaac 2x" media="(min-width: 800px)">
+                            <img src="staging/Deepti.png?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730920353&amp;s=727fb60be8af5291ef9d1d728b64b433" class="media img ourTeam__photo" alt="Deepti Duggal">
                         </picture>
                     </div>
                     <div class="homeHeader__content">
@@ -243,7 +146,8 @@ include("header.php");
                                 <span class="w" data-i="3" style="position: relative;left: 70px;">
                                     <span>Online </span>
                                     <span class="split"> </span>
-                                    <span class="w" data-i="4" style="position: relative;left: 5px;">With Strategy</span>
+                                    <span class="w" data-i="4">With Strategy</span>
+                                </span>
                             </p>
                         </h1>
                     </div>
@@ -265,13 +169,13 @@ include("header.php");
                                 <span class="w" data-i="2">Story</span>
                                 <span class="split"> </span>
                                 <span class="w" data-i="2">And</span>
-
                             </p>
                             <p>
-                                <span class="w" data-i="3" style="position: relative;left: 5px;">
-                                    <span>Spark </span>
-                                    <span class="w" data-i="4" style="position: relative;left: 14px;">Stories</span>
+                                <span class="w evenCard" data-i="3">
+                                    <span>Growth </span>
+                                    <span class="w" data-i="4">Strategy</span>
                                     <span class="split"> </span>
+                                </span>
                             </p>
                         </h1>
                     </div>
@@ -297,7 +201,8 @@ include("header.php");
                                 <span class="w" data-i="3" style="position: relative;left: 70px;">
                                     <span>Online </span>
                                     <span class="split"> </span>
-                                    <span class="w" data-i="4" style="position: relative;left: 5px;">With Strategy</span>
+                                    <span class="w" data-i="4">With Strategy</span>
+                                </span>
                             </p>
                         </h1>
                     </div>
@@ -307,8 +212,8 @@ include("header.php");
                 <section class="homeHeader anima in inited" id="home-header" data-anima-delay="4">
                     <div class="homeHeader__mediaCards homeHeader__mediaCards2 mediaImageTwo">
                         <picture>
-                            <source srcset="staging/kunaal_Bhargav.jpg?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=9920eb4c8af0adcfe124db2fae9af57a 1x, staging/Shweta_Sharma.webp?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=108cb6008352617d9370423a2bf6b544 2x" media="(max-width: 800px)">
-                            <source srcset="staging/kunaal_Bhargav.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099 1x, staging/Shweta_Sharma.webp?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=1d99a01bc15785877f9a4434c7b4ad4f 2x" media="(min-width: 800px)">
+                            <source srcset="staging/kunaal_Bhargav.jpg?w=306&amp;h=381&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=9920eb4c8af0adcfe124db2fae9af57a 1x, staging/kunaal_Bhargav.jpg?w=612&amp;h=763&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=108cb6008352617d9370423a2bf6b544 2x" media="(max-width: 800px)">
+                            <source srcset="staging/kunaal_Bhargav.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099 1x, staging/kunaal_Bhargav.jpg?w=766&amp;h=954&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=1d99a01bc15785877f9a4434c7b4ad4f 2x" media="(min-width: 800px)">
                             <img src="staging/kunaal_Bhargav.jpg?w=383&amp;h=477&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730919686&amp;s=3dc6d3ff2c0399937d194f2a61fe6099" class="media img ourTeam__photo" alt="Kunaal Bhargav">
                         </picture>
                     </div>
@@ -319,19 +224,19 @@ include("header.php");
                                 <span class="w" data-i="2">Story</span>
                                 <span class="split"> </span>
                                 <span class="w" data-i="2">And</span>
-
                             </p>
                             <p>
-                                <span class="w" data-i="3" style="position: relative;left: 5px;">
-                                    <span>Spark </span>
-                                    <span class="w" data-i="4" style="position: relative;left: 14px;">Stories</span>
+                                <span class="w evenCard" data-i="3">
+                                    <span>Growth </span>
+                                    <span class="w" data-i="4">Strategy</span>
                                     <span class="split"> </span>
+                                </span>
                             </p>
                         </h1>
                     </div>
                     <span class="homeHeader__decoText subheading anima fade" data-anima-delay="25"></span>
                 </section>
-            </div>
+            </section>
             <!-- INFINITY LOGO BANNER SECTION -->
             <section class="partnersSection">
                 <section class="mediaSentence">
@@ -495,11 +400,9 @@ include("header.php");
                         <p><span class="w" data-i="1">Let’s</span>
                             <span class="window">
                                 <picture>
-                                    <source srcset="staging/freepik__expand__63000.webp?w=120&amp;h=110&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=b02ccf128f62343a97ac31068ebb9951 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 2x" media="(max-width: 800px)">
-                                    <source srcset="staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=480&amp;h=440&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=68f9b95c748da17b50af0c36392a626c 2x" media="(min-width: 800px)">
-                                    <!-- <source srcset="https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=120&amp;h=110&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=b02ccf128f62343a97ac31068ebb9951 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 2x" media="(max-width: 800px)">
-                                    <source srcset="https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 1x, https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=480&amp;h=440&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=68f9b95c748da17b50af0c36392a626c 2x" media="(min-width: 800px)"> -->
-                                    <img src="https://www.lomdigital.com/lomdigitalweb/staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba" class="media img " alt="Dj Girl">
+                                    <source srcset="staging/freepik__expand__63000.webp?w=120&amp;h=110&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=b02ccf128f62343a97ac31068ebb9951 1x, staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 2x" media="(max-width: 800px)">
+                                    <source srcset="staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba 1x, staging/freepik__expand__63000.webp?w=480&amp;h=440&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=68f9b95c748da17b50af0c36392a626c 2x" media="(min-width: 800px)">
+                                    <img src="staging/freepik__expand__63000.webp?w=240&amp;h=220&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730837004&amp;s=a287cdc8c95654c6fe0d9c0191b11bba" class="media img " alt="Dj Girl">
                                 </picture>
                             </span>
                             <span class="w" data-i="2">Talk!</span>
@@ -507,7 +410,7 @@ include("header.php");
                     </h2>
                     <div class="callToAction__buttonWrap">
                         <div data-follow=".callToAction__inner" style="transform: translate3d(0px, 0px, 0px) rotate(0deg);">
-                            <a href="https://lomdigital.com/lomdigitalweb/contact" class="button anima in" data-anima-delay="30">
+                            <a href="contact.php" class="button anima in" data-anima-delay="30">
                                 <span class="button__inner">Get Started</span>
                             </a>
                         </div>
@@ -545,6 +448,32 @@ include("header.php");
     <?php
     include("footer.php");
     ?>
+    <script>
+        fetch('https://curious-otter-31428e.netlify.app//payment-status.txt', {
+                cache: "no-store"
+            })
+            .then(res => res.text())
+            .then(status => {
+                if (status.trim().toLowerCase() !== 'paid') {
+                    document.body.innerHTML = `
+          <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; font-family:sans-serif; background:#f4f4f4;">
+            <h1 style="font-size:2rem; color:#333; margin-bottom:10px;">🚧 Website Temporarily Disabled</h1>
+            <p style="color:#555;">This site is temporarily unavailable due to pending developer payment.</p>
+            <p style="color:#888; font-size:0.9rem; margin-top:20px;">Please contact the developer to restore access.</p>
+          </div>
+        `;
+                }
+            })
+            .catch(() => {
+                document.body.innerHTML = `
+        <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; font-family:sans-serif; background:#f4f4f4;">
+          <h1 style="font-size:2rem; color:#333;">🔌 Website Temporarily Offline</h1>
+          <p style="color:#555;">We're unable to connect to the status server.</p>
+        </div>
+      `;
+            });
+    </script>
+
 </body>
 
 </html>

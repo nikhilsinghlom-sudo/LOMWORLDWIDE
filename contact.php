@@ -67,9 +67,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <span class="w" data-i="1">Let’s </span>
                             <span class="window">
                                 <picture>
-                                    <source srcset="https://rhythm-influence.transforms.svdcdn.com/staging/Contact-Image.png?w=190&amp;h=140&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=4602cc32706064a4a98e95d5705307b4 1x, https://rhythm-influence.transforms.svdcdn.com/staging/Contact-Image.png?w=380&amp;h=280&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=0a920e52451f82725c5020f03570d7a4 2x" media="(max-width: 800px)">
-                                    <source srcset="https://rhythm-influence.transforms.svdcdn.com/staging/Contact-Image.png?w=380&amp;h=280&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=0a920e52451f82725c5020f03570d7a4 1x, https://rhythm-influence.transforms.svdcdn.com/staging/Contact-Image.png?w=760&amp;h=560&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=57ce5824ce3d9d904689baa69e8df0ac 2x" media="(min-width: 800px)">
-                                    <img src="https://rhythm-influence.transforms.svdcdn.com/staging/Contact-Image.png?w=380&amp;h=280&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=0a920e52451f82725c5020f03570d7a4" class="media img " alt="Contact Image">
+                                    <source srcset="staging/Contact-Image.webp?w=190&amp;h=140&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=4602cc32706064a4a98e95d5705307b4 1x, staging/Contact-Image.webp?w=380&amp;h=280&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=0a920e52451f82725c5020f03570d7a4 2x" media="(max-width: 800px)">
+                                    <source srcset="staging/Contact-Image.webp?w=380&amp;h=280&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=0a920e52451f82725c5020f03570d7a4 1x, staging/Contact-Image.webp?w=760&amp;h=560&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=57ce5824ce3d9d904689baa69e8df0ac 2x" media="(min-width: 800px)">
+                                    <img src="staging/Contact-Image.webp?w=380&amp;h=280&amp;q=85&amp;auto=format&amp;fit=crop&amp;dm=1730748411&amp;s=0a920e52451f82725c5020f03570d7a4" class="media img " alt="Contact Image">
                                 </picture>
                             </span>
                             <span class="w" data-i="2">chat </span>
@@ -77,14 +77,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </h2>
                     <div class="shortHeader__bottom anima fade in" data-anima-delay="5">
                         <p class="body anima fade in" data-anima-delay="10">Have a specific inquiry or partnership request? Fill out the form here and we’ll get back to you asap.</p>
-                        <!-- <div class="shortHeader__links">
-                            <a href="https://www.instagram.com/rhythminfluence/" class="link footer__socialLink flipLink" target="_blank" data-content="Instagram">
-                                <span>Instagram</span>
-                            </a>
-                            <a href="https://www.linkedin.com/company/rhythminfluence/posts/?feedView=all" class="link footer__socialLink flipLink" target="_blank" data-content="LinkedIn">
-                                <span>LinkedIn</span>
-                            </a>
-                        </div> -->
                     </div>
                 </div>
             </section>
@@ -114,7 +106,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <span class="ctaButton ctaButton--dark submitButton">
                             <input class="ctaButton__label" type="submit" name="submit" value="Send Message">
                         </span>
-                        <!--<p class="body body--large contactForm__success">Thank you for your message.</p>-->
                     </form>
 
                 </div>

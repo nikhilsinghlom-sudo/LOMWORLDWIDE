@@ -106,7 +106,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         <span class="ctaButton ctaButton--dark submitButton">
                             <input class="ctaButton__label" type="submit" name="submit" value="Download Credentials">
                         </span>
-                        <!--<p class="body body--large contactForm__success">Thank you for your message.</p>-->
                     </form>
                 </div>
             </section>
